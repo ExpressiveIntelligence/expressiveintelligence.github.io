@@ -5,8 +5,14 @@ title: Publications
 .content {
   padding: 20px;
 }
-td:nth-child(2) {
+.title {
   font-weight: bold;
+}
+.author {
+  white-space: nowrap;
+}
+.author:not(:last-child):after {
+  content: ",";
 }
 </style>
 <table class="publications">
@@ -20,7 +26,7 @@ td:nth-child(2) {
   {% for pub in site.data.publications %}
   <tr>
     <td>{{pub.year}}</td>
-    <td><a href="{{pub.url}}">{{pub.title}}</a></td>
+    <td class="title"><a href="{{pub.url}}">{{pub.title}}</a></td>
     <td>
       {% for author in pub.authors %}
       <span class="author">{{author}}</span>

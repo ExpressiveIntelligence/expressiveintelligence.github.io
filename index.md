@@ -6,10 +6,6 @@ title: Home Page
   margin: 2em auto;
   width: 90%;
 }
-.sidebyside {
-  display: flex;
-  flex-flow: row wrap;
-}
 </style>
 <div class="content-wrapper sidebyside">
   <div style="width:50%">

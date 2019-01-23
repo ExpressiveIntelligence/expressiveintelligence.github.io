@@ -65,19 +65,21 @@
     color: #f7da50;
     /*color: #fdee98; brand-color light yellow */
   }
+  /* utility class: lays its children out horizontally side by side, provided they're narrow enough to fit on one line together */
+  .sidebyside {
+    display: flex;
+    flex-flow: row wrap;
+  }
   /* main page content */
   .content {
     background: white;
-  }
-  h2 {
-    margin-bottom: 1em;
   }
   .content section {
     background: #f2f2f2;
     margin-bottom: 1.5em;
     padding: 1em;
   }
-  .content h3 {
+  .content h2 {
     margin-bottom: 0.5em;
   }
   .content p {
@@ -101,12 +103,6 @@
     border-bottom: 1px solid #ccc;
     padding: 0.5em;
   }
-  .author {
-    white-space: nowrap;
-  }
-  .author:not(:last-child):after {
-    content: ",";
-  }
   </style>
 </head>
 <body>
@@ -125,9 +121,6 @@
     </nav>
   </header>
   <main>
-    <!--<header class="page-header">
-      <h2 class="title"><a href="{{page.url}}">{{page.title}}</a></h2>
-    </header>-->
     <div class="content">{{content}}</div>
   </main>
 </body>
