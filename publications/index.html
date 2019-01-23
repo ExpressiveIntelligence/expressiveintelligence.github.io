@@ -1,0 +1,33 @@
+---
+title: Publications
+---
+<style>
+.content {
+  padding: 20px;
+}
+td:nth-child(2) {
+  font-weight: bold;
+}
+</style>
+<table class="publications">
+  <tr>
+    <th>Year</th>
+    <th>Title</th>
+    <th>Authors</th>
+    <th>Venue</th>
+    <th>Links</th>
+  </tr>
+  {% for pub in site.data.publications %}
+  <tr>
+    <td>{{pub.year}}</td>
+    <td><a href="{{pub.url}}">{{pub.title}}</a></td>
+    <td>
+      {% for author in pub.authors %}
+      <span class="author">{{author}}</span>
+      {% endfor %}
+    </td>
+    <td><span title="{{pub.venue_long}}">{{pub.venue}}</span></td>
+    <td><a href={% if pub.scholar %}"https://scholar.google.com/scholar?q={{pub.scholar}}"{%else%}"https://scholar.google.com/scholar?q=%22{{pub.title}}%22"{%endif%}>Google Scholar</a></td>
+  </tr>
+  {% endfor %}
+</table>

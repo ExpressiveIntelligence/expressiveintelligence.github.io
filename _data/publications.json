@@ -1,0 +1,331 @@
+[
+{
+  "title": "Sketching a Map of the Storylets Design Space",
+  "url": "https://mkremins.github.io/publications/Storylets_SketchingAMap.pdf",
+  "authors": ["Max Kreminski", "Noah Wardrip-Fruin"],
+  "year": "2018",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling",
+  "bibtex": "@inproceedings{kreminski2018sketching,
+      title={Sketching a Map of the Storylets Design Space},
+      author={Kreminski, Max and Wardrip-Fruin, Noah},
+      booktitle={International Conference on Interactive Digital Storytelling},
+      pages={160--164},
+      year={2018},
+      organization={Springer}
+    }"
+},
+{
+  "title": "Throwing Bottles at God: Predictive Text as a Game Mechanic in an AI-Based Narrative Game",
+  "url": "https://mkremins.github.io/publications/ThrowingBottles.pdf",
+  "authors": ["Max Kreminski", "Noah Wardrip-Fruin"],
+  "year": "2018",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling"
+},
+{
+  "title": "Freedom of Movement: Generative Responses to Motion Control",
+  "url": "http://www.exag.org/wp-content/uploads/2018/10/AIIDE-18_Upload_124.pdf",
+  "authors": ["Kate Compton", "Michael Mateas"],
+  "year": "2018",
+  "venue": "EXAG",
+  "venue_long": "Experimental AI in Games"
+},
+{
+  "title": "Gemini: Bidirectional Generation and Analysis of Games via ASP",
+  "url": "https://www.aaai.org/ocs/index.php/AIIDE/AIIDE18/paper/viewPaper/18086",
+  "authors": ["Adam Summerville", "Chris Martens", "Ben Samuel", "Joseph Osborn", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2018",
+  "venue": "AIIDE",
+  "venue_long": "Artificial Intelligence and Interactive Digital Entertainment"
+},
+{
+  "title": "Procedural Content Generation via Machine Learning (PCGML)",
+  "url": "https://arxiv.org/pdf/1702.00539.pdf",
+  "authors": ["Adam Summerville", "Sam Snodgrass", "Matthew Guzdial", "Christoffer Holmgård", "Amy K. Hoover", "Aaron Isaksen", "Andy Nealen", "Julian Togelius"],
+  "year": "2018",
+  "venue": "ToG",
+  "venue_long": "Transactions on Games"
+},
+{
+  "title": "Gardening Games: An Alternative Philosophy of PCG in Games",
+  "url": "https://mkremins.github.io/publications/GardeningGames.pdf",
+  "authors": ["Max Kreminski", "Noah Wardrip-Fruin"],
+  "year": "2018",
+  "venue": "PCG Workshop",
+  "venue_long": "Workshop on Procedural Content Generation"
+},
+{
+  "title": "Immersive Design Fiction: Using VR to Prototype Speculative Interfaces and Interaction Rituals within a Virtual Storyworld",
+  "url": "http://mkremins.github.io/publications/ImmersiveDesignFiction.pdf",
+  "authors": ["Joshua McVeigh-Schultz", "Max Kreminski", "Keshav Prasad", "Perry Hoberman", "Scott S. Fisher"],
+  "year": "2018",
+  "venue": "DIS",
+  "venue_long": "Designing Interactive Systems"
+},
+{
+  "title": "Are Game Design and User Research Guidelines Specific to Virtual Reality Effective in Creating a More Optimal Player Experience? Yes: VR PLAY",
+  "url": "http://mkremins.github.io/publications/VRPLAY.pdf",
+  "authors": ["Heather Desurvire", "Max Kreminski"],
+  "year": "2018",
+  "venue": "DUXU",
+  "venue_long": "Design, User Experience, and Usability"
+},
+{
+  "title": "Crafting in Games",
+  "url": "http://www.digitalhumanities.org/dhq/vol/11/4/000339/000339.html",
+  "authors": ["April Grow", "Melanie Dickinson", "Johnathan Pagnutti", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2017",
+  "venue": "DHQ",
+  "venue_long": "Digital Humanities Quarterly",
+  "scholar": "%22Crafting in Games%22 Grow"
+},
+{
+  "title": "From Mechanics to Meaning",
+  "url": "",
+  "authors": ["Adam Summerville", "Chris Martens", "Sarah Harmon", "Michael Mateas", "Joseph Carter Osborn", "Noah Wardrip-Fruin", "Arnav Jhala"],
+  "year": "2017",
+  "venue": "TCAIG",
+  "venue_long": "Transactions on Computational Intelligence and AI in Games",
+  "scholar": "%22From Mechanics to Meaning%22 Summerville"
+},
+{
+  "title": "A Generative Framework of Generativity",
+  "url": "http://www.galaxykate.com/pdfs/ComptonMateas-Generative%20Framework%20For%20Generativity.pdf",
+  "authors": ["Kate Compton", "Michael Mateas"],
+  "year": "2017",
+  "venue": "EXAG",
+  "venue_long": "Experimental AI in Games"
+},
+{
+  "title": "Generominos: Ideation Cards for Interactive Generativity",
+  "url": "http://www.galaxykate.com/pdfs/ComptonMelcerMateas-Generominos.pdf",
+  "authors": ["Kate Compton", "Eddie Melcer"],
+  "year": "2017",
+  "venue": "EXAG",
+  "venue_long": "Experimental AI in Games"
+},
+{
+  "title": "Operationalizing Operational Logics: Semiotic Knowledge Representations for Interactive Systems",
+  "url": "https://www.ijcai.org/proceedings/2017/0759.pdf",
+  "authors": ["Joseph C. Osborn"],
+  "year": "2017",
+  "venue": "IJCAI",
+  "venue_long": "International Joint Conference on Artificial Intelligence"
+},
+{
+  "title": "Refining Operational Logics",
+  "url": "https://cloudfront.escholarship.org/dist/prd/content/qt2jh5c6k7/qt2jh5c6k7.pdf",
+  "authors": ["Joseph C. Osborn", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2017",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Little Procedural People: Playing Politics with Generators",
+  "url": "http://www.galaxykate.com/pdfs/Compton-LittleProceduralPeople.pdf",
+  "authors": ["Kate Compton"],
+  "year": "2017",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Leveraging Procedural Narrative and Gameplay to Address Controversial Topics",
+  "url": "http://computationalcreativity.net/iccc2017/CCSJ/samuel.pdf",
+  "authors": ["Ben Samuel", "Jacob Garbe", "Adam Summerville", "Jill Denner", "Sarah Harmon", "Gina Lepore", "Chris Martens", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2017",
+  "venue": "ICCC",
+  "venue_long": "International Conference on Computational Creativity Workshop on Computational Creativity and Social Justice"
+},
+{
+  "title": "Proceduralist Readings, Procedurally",
+  "url": "https://www.aaai.org/ocs/index.php/AIIDE/AIIDE16/paper/viewFile/14061/13612",
+  "authors": ["Chris Martens", "Adam Summerville", "Michael Mateas", "Joseph Osborn", "Sarah Harmon", "Noah Wardrip-Fruin", "Arnav Jhala"],
+  "year": "2016",
+  "venue": "EXAG",
+  "venue_long": "Experimental AI in Games"
+},
+{
+  "title": "Do You Like This Art I Made You: Introducing Techne, A Creative Artbot Commune",
+  "url": "https://users.soe.ucsc.edu/~ejw/papers/techne-pcg-workshop-2016.pdf",
+  "authors": ["Kate Compton", "Johnathan Pagnutti", "Jim Whitehead"],
+  "year": "2016",
+  "venue": "PCG Workshop",
+  "venue_long": "Workshop on Procedural Content Generation"
+},
+{
+  "title": "Bad News: A Game of Death and Communication",
+  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_BadNewsCHI2016.pdf",
+  "authors": ["James Ryan", "Adam Summerville", "Ben Samuel"],
+  "year": "2016",
+  "venue": "CHI",
+  "venue_long": "Conference on Human Factors in Computing Systems"
+},
+{
+  "title": "Tracery: An Author-Focused Generative Text Tool",
+  "url": "http://www.galaxykate.com/pdfs/ComptonKybartasMateas15-Tracery%20An%20Author-Focused%20Generative%20Text%20Tool.pdf",
+  "authors": ["Kate Compton", "Ben Kybartas", "Michael Mateas"],
+  "year": "2015",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling"
+},
+{
+  "title": "Open Design Challenges for Interactive Emergent Narrative",
+  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_OpenDesignChallengesForInteractiveEmergentNarrative.pdf",
+  "authors": ["James Ryan", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2015",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling"
+},
+{
+  "title": "The Ensemble Engine: Next-Generation Social Physics",
+  "url": "http://www.ben-samuel.com/wp-content/uploads/2015/09/FDG2015-The-Ensemble-Engine-Next-Generation-Social-Physics.pdf",
+  "authors": ["Ben Samuel", "Aaron A. Reed", "Paul Maddaloni", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2015",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "People Tend To Like Related Games",
+  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_PeopleTendToLikeRelatedGames.pdf",
+  "authors": ["James Ryan", "Eric Kaltman", "Timothy Hong", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2015",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Toward Characters Who Observe, Tell, Misremember, and Lie",
+  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_TowardCharactersWhoObserveTellMisrememberLie.pdf",
+  "authors": ["James Ryan", "Adam Summerville", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2015",
+  "venue": "AIIDE",
+  "venue_long": "Artificial Intelligence and Interactive Digital Entertainment"
+},
+{
+  "title": "Casual Creators",
+  "url": "http://axon.cs.byu.edu/ICCC2015proceedings/10.2Compton.pdf",
+  "authors": ["Kate Compton", "Michael Mateas"],
+  "year": "2015",
+  "venue": "ICCC",
+  "venue_long": "International Conference on Computational Creativity"
+},
+{
+  "title": "Social Story Worlds With Comme il Faut",
+  "url": "http://games.cs.uno.edu/publications/papers/mccoy2014cif.pdf",
+  "authors": ["Joshua McCoy", "Mike Treanor", "Ben Samuel", "Aaron A. Reed", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2014",
+  "venue": "TCAIG",
+  "venue_long": "Transactions on Computational Intelligence and AI in Games"
+},
+{
+  "title": "Envisioning the Future of Computational Media: The Final Report of the Media Systems Project",
+  "url": "https://mediasystems.soe.ucsc.edu/sites/default/files/Media%20Systems-Full%20Report.pdf",
+  "authors": ["Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2014"
+},
+{
+  "title": "Ice-Bound: Combining Richly-Realized Story with Expressive Gameplay",
+  "url": "http://www.fdg2014.org/papers/fdg2014_paper_23.pdf",
+  "authors": ["Aaron A. Reed", "Jacob Garbe", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2014",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Author Assistance Visualizations for Ice-Bound, A Combinatorial Narrative",
+  "url": "http://fdg2014.org/papers/fdg2014_paper_10.pdf",
+  "authors": ["Jacob Garbe", "Aaron A. Reed", "Melanie Dickinson", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2014",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "A Methodology for Requirements Analysis of AI Architecture Authoring Tools",
+  "url": "https://games.soe.ucsc.edu/sites/default/files/Grow%20et%20al%20-%20A%20Methodology%20for%20Requirements%20Analysis%20for%20AI%20Architecture%20Authoring%20Tools.pdf",
+  "authors": ["April Grow", "Swen Gaudl", "Paulo Gomes", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2014",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Prom Week: Designing Past the Game/Story Dilemma",
+  "url": "http://www.aaronareed.net/papers/Prom%20Week%20FDG%202013.pdf",
+  "authors": ["Josh McCoy", "Mike Treanor", "Ben Samuel", "Aaron A. Reed", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2013",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Generative Methods",
+  "url": "http://www.fdg2013.org/program/workshops/papers/PCG2013/pcg2013_6.pdf",
+  "authors": ["Kate Compton", "Joseph C. Osborn", "Michael Mateas"],
+  "year": "2013",
+  "venue": "PCG Workshop",
+  "venue_long": "Workshop on Procedural Content Generation",
+  "scholar": "%22Generative+Methods%22 Compton"
+},
+{
+  "title": "PCG-Based Game Design: Creating Endless Web",
+  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/smith-fdg12.pdf",
+  "authors": ["Gillian Smith", "Alexei Othenin-Girard", "Jim Whitehead", "Noah Wardrip-Fruin"],
+  "year": "2012",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Answer Set Programming for Procedural Content Generation: A Design Space Approach",
+  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/tciaig-asp4pcg.pdf",
+  "authors": ["Adam M. Smith", "Michael Mateas"],
+  "year": "2011",
+  "venue": "TCAIG",
+  "venue_long": "Transactions on Computational Intelligence and AI in Games"
+},
+{
+  "title": "Prom Week: Social Physics as Gameplay",
+  "url": "http://www.ben-samuel.com/wp-content/uploads/2015/09/FDG-2011-Prom-Week-Social-Physics-as-Gameplay.pdf",
+  "authors": ["Josh McCoy", "Mike Treanor", "Ben Samuel", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2011",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Proceduralist Readings: How to Find Meaning in Games with Graphical Logics",
+  "url": "https://games.soe.ucsc.edu/sites/default/files/Proceduralist%20Readings%20%28camera%20ready%29.pdf",
+  "authors": ["Mike Treanor", "Bobby Schweizer", "Ian Bogost", "Michael Mateas"],
+  "year": "2011",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "PCG-Based Game Design: Enabling New Play Experiences through Procedural Content Generation",
+  "url": "",
+  "authors": ["Gillian Smith", "Elaine Gan", "Alexei Othenin-Girard", "Jim Whitehead"],
+  "year": "2011",
+  "venue": "PCG Workshop",
+  "venue_long": "Workshop on Procedural Content Generation"
+},
+{
+  "title": "Tanagra: A Mixed-Initiative Level Design Tool",
+  "url": "http://sokath.com/main/files/1/smith-fdg10.pdf",
+  "authors": ["Gillian Smith", "Jim Whitehead", "Michael Mateas"],
+  "year": "2010",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "Analyzing the Expressive Range of a Level Generator",
+  "url": "http://rogel.io/content/projects/smith2010analyzing.pdf",
+  "authors": ["Gillian Smith", "Jim Whitehead"],
+  "year": "2010",
+  "venue": "PCG Workshop",
+  "venue_long": "Workshop on Procedural Content Generation"
+},
+{
+  "title": "Defining Operational Logics",
+  "url": "https://games.soe.ucsc.edu/sites/default/files/Mateas%20Wardrip-Fruin%20DIGRA%202009.pdf",
+  "authors": ["Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2009",
+  "venue": "DiGRA",
+  "venue_long": "Digital Games Research Association"
+},
+]

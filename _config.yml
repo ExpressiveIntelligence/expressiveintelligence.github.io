@@ -1,0 +1,9 @@
+url: http://expressiveintelligence.github.io
+
+defaults:
+  -
+    scope:
+      path: "" # everything
+      type: pages
+    values:
+      layout: page
