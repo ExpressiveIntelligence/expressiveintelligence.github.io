@@ -1,17 +1,11 @@
 ---
 title: Home Page
 ---
-<style>
-.content-wrapper {
-  margin: 2em auto;
-  width: 90%;
-}
-</style>
-<div class="content-wrapper sidebyside">
-  <div style="width:50%">
+<div class="content-wrapper halves">
+  <div>
     <img src="https://eis-dev.soe.ucsc.edu/sites/default/files/inline-images/eis-banner-301x115.png" alt="Expressive Intelligence Studio logo">
   </div>
-  <div style="width:50%" markdown="1">
+  <div markdown="1">
   The Expressive Intelligence Studio (EIS) is a technical and cultural research group at UC Santa Cruz, directed by [Michael Mateas](/people/michael-mateas) and [Noah Wardrip-Fruin](/people/noah-wardrip-fruin).
 
   EIS is dedicated to exploring the intersection of artificial intelligence, art, and design. Our goal is to create compelling new forms of interactive art and entertainment that provide deeply autonomous, generative, and dynamic responses to interaction. A major thrust of this work is advanced AI for interactive narrative and video games. This includes autonomous characters, story generation, automated asset creation, game data analysis, and intelligent support for media design. 

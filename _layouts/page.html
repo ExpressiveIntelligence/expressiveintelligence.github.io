@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <title>{{page.title}} | EIS</title>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
@@ -36,6 +37,7 @@
   a:hover {
     color: #f16c0a; /* brand-color orange */
   }
+
   /* site header */
   .site-header {
     background: #f2f2f2;
@@ -51,12 +53,15 @@
     background: #0c5eb1;
     font-weight: bold;
   }
+  .site-nav {
+    padding-left: 5%;
+  }
   .site-nav ul li {
     display: inline-block;
     padding: 0.5rem;
   }
   .site-nav ul li:first-child {
-    padding-left: 5%;
+    padding-left: 0; /* so it doesn't compound with the left padding on the site-nav itself */
   }
   .site-nav a {
     color: white;
@@ -66,11 +71,33 @@
     color: #f7da50;
     /*color: #fdee98; brand-color light yellow */
   }
-  /* utility class: lays its children out horizontally side by side, provided they're narrow enough to fit on one line together */
+
+  /* utility classes */
   .sidebyside {
+    /* lay out children of this element out horizontally side by side, provided they're narrow enough to fit on one line together */
     display: flex;
     flex-flow: row wrap;
   }
+  .content-wrapper {
+    /* place on a top-level div to standardize spacing around content with most other pages */
+    margin: 2em auto;
+    width: 90%;
+  }
+  .halves {
+    /* standard layout: container for two top-level blocks, each of which takes up half of the page horizontally, collapsing into a single column when the page is narrow */
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .halves > * {
+    width: 50%;
+  }
+  @media (max-width: 900px){
+    .halves > * {
+      margin-bottom: 1em;
+      width: 100%;
+    }
+  }
+
   /* main page content */
   .content {
     background: white;
