@@ -77,8 +77,7 @@
   "authors": ["April Grow", "Melanie Dickinson", "Johnathan Pagnutti", "Noah Wardrip-Fruin", "Michael Mateas"],
   "year": "2017",
   "venue": "DHQ",
-  "venue_long": "Digital Humanities Quarterly",
-  "scholar": "%22Crafting in Games%22 Grow"
+  "venue_long": "Digital Humanities Quarterly"
 },
 {
   "title": "From Mechanics to Meaning",
@@ -86,8 +85,7 @@
   "authors": ["Adam Summerville", "Chris Martens", "Sarah Harmon", "Michael Mateas", "Joseph Carter Osborn", "Noah Wardrip-Fruin", "Arnav Jhala"],
   "year": "2017",
   "venue": "TCAIG",
-  "venue_long": "Transactions on Computational Intelligence and AI in Games",
-  "scholar": "%22From Mechanics to Meaning%22 Summerville"
+  "venue_long": "Transactions on Computational Intelligence and AI in Games"
 },
 {
   "title": "A Generative Framework of Generativity",
@@ -261,8 +259,7 @@
   "authors": ["Kate Compton", "Joseph C. Osborn", "Michael Mateas"],
   "year": "2013",
   "venue": "PCG Workshop",
-  "venue_long": "Workshop on Procedural Content Generation",
-  "scholar": "%22Generative+Methods%22 Compton"
+  "venue_long": "Workshop on Procedural Content Generation"
 },
 {
   "title": "PCG-Based Game Design: Creating Endless Web",
