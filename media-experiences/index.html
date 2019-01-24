@@ -1,20 +1,7 @@
 ---
 title: Media Experiences
 ---
-<style>
-.thumbnail {
-  padding-right: 1em;
-  width: 25%;
-}
-.thumbnail img {
-  width: 100%;
-  height: auto;
-}
-.desc {
-  width: 75%;
-}
-</style>
-<section class="sidebyside">
+<article class="project-card">
   <div class="thumbnail">
     <img src="https://gamecip.soe.ucsc.edu/sites/default/files/theSpace.png" alt="GameSpace screenshot">
   </div>
@@ -22,8 +9,8 @@ title: Media Experiences
     <p><strong><a href="https://gamecip.soe.ucsc.edu/gamespace">GameSpace </a></strong> is a three-dimensional visualization of 16,000 games on Wikipedia. The visualization uses natural language processing (NLP) machine learning algorithms to position games based on their Wikipedia article text. This is the same process (latent semantic analysis) that was used to derive the GameNet, GameSage, and GameGlobs models, with an additional step that uses t-stochastic neighborhood embedding (TSNE) to provide each game with a three dimensional coordinate in a "galaxy" of games.</p>
     <p>GameSpace can be interacted with at <strong><a href="http://gamespace.io">gamespace.io</a></strong>.</p>
   </div>
-</section>
-<section class="sidebyside">
+</article>
+<article class="project-card">
   <div class="thumbnail">
     <img src="https://gamecip.soe.ucsc.edu/sites/default/files/the_gamesage.png" alt="GameSage screenshot">
   </div>
@@ -31,8 +18,8 @@ title: Media Experiences
     <p><strong><a href="https://gamecip.soe.ucsc.edu/node/54">GameSage </a></strong> is a tool that takes free-text input describing an idea for a videogame and lists the existing games that are most related to that idea. This tool utilizes the notion in LSA of folding in, whereby a new document that was not used during model training is fitted with a representation in the semantic space derived by the model. By treating the user’s input text (which specifies her game idea) as a corpus document (on par with the videogame Wikipedia articles we used to train our LSA model) and folding it in, we are able to derive an LSA vector for the idea. From here, we determine which existing games (from among GameNet’s 11,829 games) are most related to the game idea by using cosine similarity, just as we did in constructing GameNet.</p>
     <p>GameSage can be interacted with <strong><a href="http://gamecip-projects.soe.ucsc.edu/gamesage">here</a></strong>.</p>
   </div>
-</section>
-<section class="sidebyside">
+</article>
+<article class="project-card">
   <div class="thumbnail">
     <img src="https://promweek.soe.ucsc.edu/wp-content/uploads/2012/10/newInterface.jpg" alt="Prom Week screenshot">
   </div>
@@ -40,4 +27,4 @@ title: Media Experiences
     <p><strong><a href="https://promweek.soe.ucsc.edu/">Prom Week</a></strong> is a next-generation social simulation game driven by a novel artificial intelligence engine. The goal of Prom Week is to make social interactions truly playable. Prom Week uses the AI system Comme il Faut (CiF) to enable rich, emergent storylines by letting players use “social physics.” Just as games like Angry Birds support emergent solutions to physical challenges, Prom Week’s underlying simulation of social considerations (containing over 5,000 rules of social norms and behaviors) allow for emergent solutions to social challenges, like getting geeky Simon a prom date or convincing Buzz to give Monica a second chance. And unlike games like The Sims which use abstractions such as nonsense words or icons to represent language, Prom Week features actual English dialogue, and characters with detailed histories, likes, dislikes, permanent traits, and temporary statuses—all of which can be leveraged by the player to produce just the right prom night story.</p>
     <p>Prom Week can be played on <strong><a href="http://apps.facebook.com/promweek">Facebook</a></strong>.</p>
   </div>
-</section>
+</article>

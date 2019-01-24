@@ -72,14 +72,8 @@
     /*color: #fdee98; brand-color light yellow */
   }
 
-  /* utility classes */
-  .sidebyside {
-    /* lay out children of this element out horizontally side by side, provided they're narrow enough to fit on one line together */
-    display: flex;
-    flex-flow: row wrap;
-  }
+  /* "halves" standard layout: container for two top-level blocks, each of which takes up half of the page horizontally, collapsing into a single column when the page is narrow */
   .halves {
-    /* standard layout: container for two top-level blocks, each of which takes up half of the page horizontally, collapsing into a single column when the page is narrow */
     display: flex;
     flex-flow: row wrap;
   }
@@ -126,6 +120,26 @@
   td {
     border-bottom: 1px solid #ccc;
     padding: 0.5em;
+  }
+
+  /* project cards */
+  .project-card {
+    background: #f2f2f2;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .project-card .thumbnail {
+    padding-right: 1em;
+    width: 25%;
+  }
+  .project-card .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .project-card .desc {
+    width: 75%;
   }
   </style>
 </head>
