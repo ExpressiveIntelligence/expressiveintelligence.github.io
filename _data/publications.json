@@ -109,7 +109,8 @@
   "authors": ["Joseph C. Osborn"],
   "year": "2017",
   "venue": "IJCAI",
-  "venue_long": "International Joint Conference on Artificial Intelligence"
+  "venue_long": "International Joint Conference on Artificial Intelligence",
+  "tags": ["operational logics"]
 },
 {
   "title": "Refining Operational Logics",
@@ -117,7 +118,8 @@
   "authors": ["Joseph C. Osborn", "Noah Wardrip-Fruin", "Michael Mateas"],
   "year": "2017",
   "venue": "FDG",
-  "venue_long": "Foundations of Digital Games"
+  "venue_long": "Foundations of Digital Games",
+  "tags": ["operational logics"]
 },
 {
   "title": "Little Procedural People: Playing Politics with Generators",
@@ -323,6 +325,7 @@
   "authors": ["Michael Mateas", "Noah Wardrip-Fruin"],
   "year": "2009",
   "venue": "DiGRA",
-  "venue_long": "Digital Games Research Association"
+  "venue_long": "Digital Games Research Association",
+  "tags": ["operational logics"]
 },
 ]

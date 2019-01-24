@@ -1,0 +1,12 @@
+{% for pub in site.data.publications %}
+{% if pub.tags contains publication_tag %}
+<article class="publication">
+  <div class="title"><a href="{{pub.url}}">{{pub.title}}</a></div>
+  <div class="authors">
+    {% for author in pub.authors %}
+    <span class="author">{{author}}</span>
+    {% endfor %}
+  </div>
+</article>
+{% endif %}
+{% endfor %}
