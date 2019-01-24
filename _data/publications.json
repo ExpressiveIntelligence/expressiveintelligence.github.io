@@ -72,12 +72,28 @@
   "venue_long": "Design, User Experience, and Usability"
 },
 {
+  "title": "Towards Inductive Logic Programming for Game Analysis: Leda",
+  "url": "",
+  "authors": ["Adam Summerville"],
+  "year": "2018",
+  "venue": "",
+  "venue_long": ""
+},
+{
   "title": "Crafting in Games",
   "url": "http://www.digitalhumanities.org/dhq/vol/11/4/000339/000339.html",
   "authors": ["April Grow", "Melanie Dickinson", "Johnathan Pagnutti", "Noah Wardrip-Fruin", "Michael Mateas"],
   "year": "2017",
   "venue": "DHQ",
   "venue_long": "Digital Humanities Quarterly"
+},
+{
+  "title": "Grimes' Fairy Tales: A 1960s Story Generator",
+  "url": "",
+  "authors": ["James Ryan"],
+  "year": "2017",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling"
 },
 {
   "title": "From Mechanics to Meaning",
@@ -143,7 +159,8 @@
   "authors": ["Chris Martens", "Adam Summerville", "Michael Mateas", "Joseph Osborn", "Sarah Harmon", "Noah Wardrip-Fruin", "Arnav Jhala"],
   "year": "2016",
   "venue": "EXAG",
-  "venue_long": "Experimental AI in Games"
+  "venue_long": "Experimental AI in Games",
+  "tags": ["proceduralist readings"]
 },
 {
   "title": "Do You Like This Art I Made You: Introducing Techne, A Creative Artbot Commune",
@@ -154,12 +171,28 @@
   "venue_long": "Workshop on Procedural Content Generation"
 },
 {
+  "title": "Diegetically Grounded Evolution of Gameworld Languages",
+  "url": "",
+  "authors": ["James Ryan"],
+  "year": "2016",
+  "venue": "PCG Workshop",
+  "venue_long": "Workshop on Procedural Content Generation"
+},
+{
   "title": "Bad News: A Game of Death and Communication",
   "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_BadNewsCHI2016.pdf",
   "authors": ["James Ryan", "Adam Summerville", "Ben Samuel"],
   "year": "2016",
-  "venue": "CHI",
-  "venue_long": "Conference on Human Factors in Computing Systems"
+  "venue": "CHI EA",
+  "venue_long": "CHI Conference Extended Abstracts on Human Factors in Computing Systems"
+},
+{
+  "title": "Threadsteading: Playful Interaction for Textile Fabrication Devices",
+  "url": "",
+  "authors": ["Lea Albaugh", "April Grow", "Chenxi Liu", "James McCann", "Gillian Smith", "Jennifer Mankoff"],
+  "year": "2016",
+  "venue": "CHI EA",
+  "venue_long": "CHI Conference Extended Abstracts on Human Factors in Computing Systems"
 },
 {
   "title": "Tracery: An Author-Focused Generative Text Tool",
@@ -181,6 +214,14 @@
   "title": "The Ensemble Engine: Next-Generation Social Physics",
   "url": "http://www.ben-samuel.com/wp-content/uploads/2015/09/FDG2015-The-Ensemble-Engine-Next-Generation-Social-Physics.pdf",
   "authors": ["Ben Samuel", "Aaron A. Reed", "Paul Maddaloni", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2015",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
+  "title": "What We Talk About When We Talk About Games: Bottom-Up Game Studies Using Natural Language Processing",
+  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_BottomUpGamesStudiesUsingNLP.pdf",
+  "authors": ["James Ryan", "Eric Kaltman", "Michael Mateas", "Noah Wardrip-Fruin"],
   "year": "2015",
   "venue": "FDG",
   "venue_long": "Foundations of Digital Games"
@@ -293,7 +334,8 @@
   "authors": ["Mike Treanor", "Bobby Schweizer", "Ian Bogost", "Michael Mateas"],
   "year": "2011",
   "venue": "FDG",
-  "venue_long": "Foundations of Digital Games"
+  "venue_long": "Foundations of Digital Games",
+  "tags": ["proceduralist readings"]
 },
 {
   "title": "PCG-Based Game Design: Enabling New Play Experiences through Procedural Content Generation",
@@ -302,6 +344,15 @@
   "year": "2011",
   "venue": "PCG Workshop",
   "venue_long": "Workshop on Procedural Content Generation"
+},
+{
+  "title": "BurgerTime: A Proceduralist Investigation",
+  "url": "http://www.digra.org/wp-content/uploads/digital-library/11307.07106.pdf",
+  "authors": ["Mike Treanor", "Michael Mateas"],
+  "year": "2011",
+  "venue": "DiGRA",
+  "venue_long": "Digital Games Research Association",
+  "tags": ["proceduralist readings"]
 },
 {
   "title": "Tanagra: A Mixed-Initiative Level Design Tool",

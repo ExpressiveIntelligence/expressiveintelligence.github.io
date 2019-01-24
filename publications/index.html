@@ -24,7 +24,7 @@ title: Publications
   {% assign first_author_last_name = pub.authors | first | split: ' ' | last %}
   <tr>
     <td>{{pub.year}}</td>
-    <td class="title"><a href="{{pub.url}}">{{pub.title}}</a></td>
+    <td class="title">{% if pub.url and pub.url != "" %}<a href="{{pub.url}}">{{pub.title}}</a>{% else %}{{pub.title}}{% endif %}</td>
     <td>
       {% for author in pub.authors %}
       <span class="author">{{author}}</span>
