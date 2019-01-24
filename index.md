@@ -1,7 +1,7 @@
 ---
 title: Home Page
 ---
-<div class="content-wrapper halves">
+<div class="halves">
   <div>
     <img src="https://eis-dev.soe.ucsc.edu/sites/default/files/inline-images/eis-banner-301x115.png" alt="Expressive Intelligence Studio logo">
   </div>
