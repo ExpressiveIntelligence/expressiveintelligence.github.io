@@ -40,6 +40,15 @@
   "venue_long": "Artificial Intelligence and Interactive Digital Entertainment"
 },
 {
+  "title": "Beyond Shooting and Eating: Passage, Dys4ia, and the Meanings of Collision",
+  "url": "",
+  "authors": ["Noah Wardrip-Fruin"],
+  "year": "2018",
+  "venue": "Critical Inquiry",
+  "venue_long": "Critical Inquiry",
+  "tags": ["operational logics"]
+},
+{
   "title": "Procedural Content Generation via Machine Learning (PCGML)",
   "url": "https://arxiv.org/pdf/1702.00539.pdf",
   "authors": ["Adam Summerville", "Sam Snodgrass", "Matthew Guzdial", "Christoffer Holmgård", "Amy K. Hoover", "Aaron Isaksen", "Andy Nealen", "Julian Togelius"],
@@ -115,6 +124,14 @@
   "title": "Generominos: Ideation Cards for Interactive Generativity",
   "url": "http://www.galaxykate.com/pdfs/ComptonMelcerMateas-Generominos.pdf",
   "authors": ["Kate Compton", "Eddie Melcer"],
+  "year": "2017",
+  "venue": "EXAG",
+  "venue_long": "Experimental AI in Games"
+},
+{
+  "title": "Social Simulation for Social Justice",
+  "url": "https://www.aaai.org/ocs/index.php/AIIDE/AIIDE17/paper/viewFile/15917/15221",
+  "authors": ["Melanie Dickinson", "Noah Wardrip-Fruin", "Michael Mateas"],
   "year": "2017",
   "venue": "EXAG",
   "venue_long": "Experimental AI in Games"
