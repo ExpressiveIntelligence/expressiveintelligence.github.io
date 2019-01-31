@@ -2,20 +2,23 @@
 
 A preliminary attempt at a [Jekyll](https://jekyllrb.com/) version of the new EIS website.
 
-## Getting Started 
+
+## Getting Started
+
+If you have Windows, you first need to install Ruby+Devkit from [RubyInstaller](https://rubyinstaller.org/downloads/), then you can continue with the steps below (see the docs [here](https://jekyllrb.com/docs/installation/windows/) if you have trouble).  
 
 To start editing the site, install Jekyll:
 ```
 gem install bundler jekyll
 ```
 
-And then clone this directory and navigate into it: 
+And then clone this directory and navigate into it:
 ```
-git clone 
-cd expressiveintelligence
+git clone https://github.com/ExpressiveIntelligence/expressiveintelligence.github.io.git
+cd expressiveintelligence.github.io
 ```
 
-Then you can edit files, and see your changes by using Jekyll to build the static html and host it on a local server: 
+Then you can edit files, and see your changes by using Jekyll to build the static html and host it on a local server:
 ```
 jekyll serve
 ```
