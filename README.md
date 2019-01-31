@@ -2,6 +2,29 @@
 
 A preliminary attempt at a [Jekyll](https://jekyllrb.com/) version of the new EIS website.
 
+## Getting Started 
+
+To start editing the site, install Jekyll:
+```
+gem install bundler jekyll
+```
+
+And then clone this directory and navigate into it: 
+```
+git clone 
+cd expressiveintelligence
+```
+
+Then you can edit files, and see your changes by using Jekyll to build the static html and host it on a local server: 
+```
+jekyll serve
+```
+
+Use a browser to navigate to the server address given by the command (e.g., http://127.0.0.1:4000/).
+
+Stop the server with ctrl-c.
+
+
 ## Some Interesting Files
 
 * `_config.yml`: The Jekyll configuration file. Ours is pretty straightforward at the moment, since we're not trying to do anything especially fancy, but you could modify this to do things like add new article types other than the default `page`.
