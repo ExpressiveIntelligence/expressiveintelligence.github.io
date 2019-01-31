@@ -27,6 +27,12 @@ Use a browser to navigate to the server address given by the command (e.g., http
 
 Stop the server with ctrl-c.
 
+## Editing the Site
+1. Pull before adding anything using `git pull`
+2. Make edits
+3. Confirm your changes locally and get them ready to push with `git add` and `git commit`
+4. Share your changes using `git push` (directly to the master branch) 
+- Don’t make branches for now (we’ll use branches for making future iterations of the site)
 
 ## Some Interesting Files
 
