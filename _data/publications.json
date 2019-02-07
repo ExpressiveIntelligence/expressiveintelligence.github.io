@@ -388,6 +388,117 @@
   "venue_long": "Workshop on Procedural Content Generation"
 },
 {
+  "year":"2010",
+  "title":"Variations Forever: Flexibly Generating Rulesets from a Sculptable Design Space of Mini-Games",
+  "authors":[
+    "Adam Smith",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ieeecig20_vf.pdf"
+},
+{
+  "year":"2010",
+  "title":"What went wrong: a taxonomy of video game bugs",
+  "authors":[
+    "Chris Lewis",
+    "Jim Whitehead",
+    "Noah Wardrip-Fruin"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/taxonomy.pdf"
+},
+{
+  "year":"2010",
+  "title":"Zenet: generating and enforcing real-time temporal invariants",
+  "authors":[
+    "Chris Lewis"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/doccon.pdf"
+},
+{
+  "year":"2010",
+  "title":"The science of level design",
+  "authors":[
+    "Kenneth Hullett"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/khullett-fdg-doccon-camera-ready.pdf"
+},
+{
+  "year":"2009",
+  "title":"Agency Reconsidered",
+  "authors":[
+    "Noah Wardrip-Fruin",
+    "Michael Mateas",
+    "Steven Dow",
+    "Serdar Sali"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/nwf-C7-digra09-agency.pdf"
+},
+{
+  "year":"2009",
+  "title":"Al isn't just for players: AI-based authoring tools",
+  "authors":[
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"Beep! Beep! Boom!: towards a planning model of Coyote and Road Runner cartoons",
+  "authors":[
+    "David Olsen",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"Better Game Studies Education the Carcassonne Way",
+  "authors":[
+    "Kenneth Hullett",
+    "Sri Kurniawan",
+    "Noah Wardrip-Fruin"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/nwf-C5-digra09-gameEducation.pdf"
+},
+{
+  "year":"2009",
+  "title":"Case-Based Reasoning for Build Order in Real-Time Strategy Games",
+  "authors":[
+    "Ben Weber",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/bweber_aiide_09.pdf"
+},
+{
+  "year":"2009",
+  "title":"Comme il Faut: A System for Simulating Social Games Between Autonomous Characters",
+  "authors":[
+    "Josh McCoy",
+    "Michael Mateas",
+    "Noah Wardrip-Fruin"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/CognitionAndCreativity-JoshMcCoy-DAC09-Revised_0.pdf"
+},
+{
+  "year":"2009",
+  "title":"Computational Support for Play Testing Game Sketches",
+  "authors":[
+    "Adam Smith",
+    "Mark Nelson",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Smith_Nelson_Mateas_-_Play_Testing_-_AIIDE09.pdf"
+},
+{
+  "year":"2009",
+  "title":"Conceptual Neighborhoods for Retrieval in Case-Based Reasoning",
+  "authors":[
+    "Ben Weber",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/iccbr_2009.pdf"
+},
+{
   "title": "Defining Operational Logics",
   "url": "https://games.soe.ucsc.edu/sites/default/files/Mateas%20Wardrip-Fruin%20DIGRA%202009.pdf",
   "authors": ["Michael Mateas", "Noah Wardrip-Fruin"],
@@ -395,5 +506,928 @@
   "venue": "DiGRA",
   "venue_long": "Digital Games Research Association",
   "tags": ["operational logics"]
+},
+{
+  "year":"2009",
+  "title":"Evaluating the Authorial Leverage of Drama Management",
+  "authors":[
+    "Sherol Chen",
+    "Mark Nelson",
+    "Anne Sullivan",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"Expressive Processing: Digital Fictions, Computer Games, and Software Studies",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"Expressive Processing, in panel \"Critical Code and Software Studies\"",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/nwf-CS11-dh09-expressiveProcessing.pdf"
+},
+{
+  "year":"2009",
+  "title":"FDG '09: Proceedings of the 4th International Conference on Foundations of Digital Games",
+  "authors":[
+    ""
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"From Abstraction to Reality: Integrating Drama Management into a Playable Game Experience",
+  "authors":[
+    "Anne Sullivan",
+    "Sherol Chen",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"Gender-inclusive quest design in massively multiplayer online role-playing games",
+  "authors":[
+    "Anne Sullivan"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/sullivan-fdg09-dc-cr2.pdf"
+},
+{
+  "year":"2009",
+  "title":"Generative conversation tool for game writers",
+  "authors":[
+    "Christina Strong",
+    "Michael Mateas",
+    "Dave Grossman"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"Intelligent Interactive-Stories: Theory versus Practice",
+  "authors":[
+    "Sherol Chen",
+    "Anne Sullivan",
+    "Chris Lewis",
+    "Noah Wardrip-Fruin",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"Interactive Story Generation for Writers: Lessons Learned from the Wide Ruled Authoring Tool",
+  "authors":[
+    "James Skorupski",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Skorupski_DAC09_WideRuledLessonsLearned.pdf"
+},
+{
+  "year":"2009",
+  "title":"Inventing the Future of Story AI for Games",
+  "authors":[
+    "Sherol Chen",
+    "Noah Wardrip-Fruin",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"Newsgames: Procedural Rhetoric meets Political Cartoons",
+  "authors":[
+    "Mike Treanor",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/newsgames-DiGRA2009.pdf"
+},
+{
+  "year":"2009",
+  "title":"QuestBrowser: Making Quests Playable with Computer-Assisted Quest Design",
+  "authors":[
+    "Anne Sullivan",
+    "Michael Mateas",
+    "Noah Wardrip-Fruin"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/0011_sullivan.pdf"
+},
+{
+  "year":"2009",
+  "title":"Rhythm-based level generation for 2D platformers",
+  "authors":[
+    "Gillian Smith",
+    "Mike Treanor",
+    "Jim Whitehead",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/smith-fdg-09.pdf"
+},
+{
+  "year":"2009",
+  "title":"Scenario generation for emergency rescue training games",
+  "authors":[
+    "Kenneth Hullett",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/khullett%20-%20fdg%20paper%20-%20final.pdf"
+},
+{
+  "year":"2009",
+  "title":"Screen",
+  "authors":[
+    "Noah Wardrip-Fruin",
+    "Josh Carroll",
+    "Robert Coover",
+    "Shawn Greenlee",
+    "Andrew McClain",
+    "Benjamin Shine"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/nwf-P21-fileFestival.pdf"
+},
+{
+  "year":"2009",
+  "title":"Storyboard Authoring of Plan-based Interactive Dramas",
+  "authors":[
+    "James Skorupski"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Skorupski-FDG09-dcproposal-storyboardauthoring.pdf"
+},
+{
+  "year":"2009",
+  "title":"Third Person: Authoring and Exploring Vast Narratives",
+  "authors":[
+    "Pat Harrigan",
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2009",
+  "title":"A data mining approach to strategy prediction",
+  "authors":[
+    "Ben Weber",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/cig_2009.pdf"
+},
+{
+  "year":"2009",
+  "title":"A requirements analysis for videogame design support tools",
+  "authors":[
+    "Mark Nelson",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_Mateas_-_DesignSupportReqs_-_FDG09.pdf"
+},
+{
+  "year":"2008",
+  "title":"Alien presence in the home: the design of Tableau Machine",
+  "authors":[
+    "Mario Romero",
+    "Zachary Pousman",
+    "Michael Mateas"
+  ],
+  "venue_long":"Personal Ubiquitous Comput.",
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"Another look at search-based drama management",
+  "authors":[
+    "Mark Nelson",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_Mateas_-_SBDM_-_AAAI08.pdf"
+},
+{
+  "year":"2008",
+  "title":"Automatically Generating Summary Visualizations from Game Logs",
+  "authors":[
+    "Yun Cheong",
+    "Arnav Jhala",
+    "Byung Bae",
+    "Michael Young"
+  ],
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"A Companion to Digital Literary Studies",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"ELIZA Revisited",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"Expressive Processing: An Experiment in Blog-Based Peer Review",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"Integrating Drama Management into an Adventure Game",
+  "authors":[
+    "Anne Sullivan",
+    "Sherol Chen",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/aiide.2008.demo_.A92.pdf"
+},
+{
+  "year":"2008",
+  "title":"Interactionist AI and the promise of ubicomp, or, how to put your box in the world without putting the world in your box",
+  "authors":[
+    "Lucian Leahu",
+    "Phoebe Sengers",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ubicomp103-leahu.pdf"
+},
+{
+  "year":"2008",
+  "title":"Living with Tableau Machine: A Longitudinal Investigation of a Curious Domestic Intelligence",
+  "authors":[
+    "Zachary Pousman",
+    "Mario Romero",
+    "Adam Smith",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/pousman_romero_smith_mateas_2008.pdf"
+},
+{
+  "year":"2008",
+  "title":"Reading Digital Literature: Surface, Data, Interaction, and Expressive Processing",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/nwf-BC3-readingDigitalLiterature.pdf"
+},
+{
+  "year":"2008",
+  "title":"Recombinable game mechanics for automated design support",
+  "authors":[
+    "Mark Nelson",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_Mateas_-_GameMechanics_-_AIIDE08.pdf"
+},
+{
+  "year":"2008",
+  "title":"Semi-autonomous avatars in World of Minds: a case study of AI-based game design",
+  "authors":[
+    "Mirjam Eladhari",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"Software Studies",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/nwf-P18-fileSoftwareStudies-asPublished.pdf"
+},
+{
+  "year":"2008",
+  "title":"Styles of play in immersive and interactive story: case studies from a gallery installation of AR Façade",
+  "authors":[
+    "Steven Dow",
+    "Blair MacIntyre",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/AEL-PlayStyles-ACE08.pdf"
+},
+{
+  "year":"2008",
+  "title":"Tableau Machine: A Creative Alien Presence",
+  "authors":[
+    "Adam Smith",
+    "Mario Romero",
+    "Zachary Pousman",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/SS08-03-013.pdf"
+},
+{
+  "year":"2008",
+  "title":"The Tale-Spin Effect: Toward an acknowledgement of process in digital literature",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "venue_long":"Media-Space Journal",
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"Talking with NPCs: Towards dynamic generation of discourse structures",
+  "authors":[
+    "Christina Strong",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Strong_Mateas_-_AIIDE08.pdf"
+},
+{
+  "year":"2008",
+  "title":"Thing 119",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/nwf-P20-thingsWeThink.pdf"
+},
+{
+  "year":"2008",
+  "title":"Towards adaptive programming: integrating reinforcement learning into a programming language",
+  "authors":[
+    "Christopher Simpkins",
+    "Sooraj Bhat",
+    "Charles Isbell Jr.",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"The disenchantment of affect",
+  "authors":[
+    "Phoebe Sengers",
+    "Kirsten Boehner",
+    "Michael Mateas",
+    "Geri Gay"
+  ],
+  "venue_long":"Personal Ubiquitous Comput.",
+  "url":""
+},
+{
+  "year":"2008",
+  "title":"A framework for analysis of 2D platformer levels",
+  "authors":[
+    "Gillian Smith",
+    "Mee Cha",
+    "Jim Whitehead"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/smith-sandbox-08.pdf"
+},
+{
+  "year":"2008",
+  "title":"An integrated agent for playing real-time strategy games",
+  "authors":[
+    "Josh McCoy",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/AAAI08Mccoy.pdf"
+},
+{
+  "year":"2008",
+  "title":"An interactive game-design assistant",
+  "authors":[
+    "Mark Nelson",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_Mateas_-_Game-Design_Assistant_-_IUI08.pdf"
+},
+{
+  "year":"2007",
+  "title":"AR Façade: an augmented reality interactve drama",
+  "authors":[
+    "Steven Dow",
+    "Manish Mehta",
+    "Blair MacIntyre",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2007",
+  "title":"Casual Information Visualization: Depictions of Data in Everyday Life",
+  "authors":[
+    "Zachary Pousman",
+    "John Stasko",
+    "Michael Mateas"
+  ],
+  "venue_long":"IEEE Transactions on Visualization and Computer Graphics",
+  "url":""
+},
+{
+  "year":"2007",
+  "title":"Evaluating a conversation-centered interactive drama",
+  "authors":[
+    "Manish Mehta",
+    "Steven Dow",
+    "Michael Mateas",
+    "Blair MacIntyre"
+  ],
+  "url":""
+},
+{
+  "year":"2007",
+  "title":"Expressive Intelligence: Artificial Intelligence, Games and New Media",
+  "authors":[
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2007",
+  "title":"Presence and engagement in an interactive drama",
+  "authors":[
+    "Steven Dow",
+    "Manish Mehta",
+    "Ellie Harmon",
+    "Blair MacIntyre",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2007",
+  "title":"Second Person: Role-Playing and Story in Games and Playable Media",
+  "authors":[
+    "Pat Harrigan",
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2007",
+  "title":"Talking Cure",
+  "authors":[
+    "Noah Wardrip-Fruin",
+    "Camille Utterback",
+    "Clilly Castiglia",
+    "Nathan Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2007",
+  "title":"Towards Automated Game Design",
+  "authors":[
+    "Mark Nelson",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_Mateas_-_Automated_Game_Design_-_AIIA07.pdf"
+},
+{
+  "year":"2007",
+  "title":"Towards runtime behavior adaptation for embodied characters",
+  "authors":[
+    "Peng Zang",
+    "Manish Mehta",
+    "Michael Mateas",
+    "Ashwin Ram"
+  ],
+  "url":""
+},
+{
+  "year":"2007",
+  "title":"Wide ruled: a friendly interface to author-goal based story generation",
+  "authors":[
+    "James Skorupski",
+    "Lakshmi Jayapalan",
+    "Sheena Marquez",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/skorupski_icvs2007_wideruled.pdf"
+},
+{
+  "year":"2007",
+  "title":"A globally optimal algorithm for TTD-MDPs",
+  "authors":[
+    "Sooraj Bhat",
+    "David Roberts",
+    "Mark Nelson",
+    "Charles Isbell",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Bhat_etal_-_Optimal_TTD-MDP_-_AAMAS07.pdf"
+},
+{
+  "year":"2006",
+  "title":"Authoring an interactive narrative with declarative optimization-based drama management",
+  "authors":[
+    "Mark Nelson",
+    "Calvin Ashmore",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_Ashmore_Mateas_-_Authoring_DODM_-_AIIDE06.pdf"
+},
+{
+  "year":"2006",
+  "title":"Declarative Optimization-Based Drama Management in Interactive Fiction",
+  "authors":[
+    "Mark Nelson",
+    "Michael Mateas",
+    "David Roberts",
+    "Charles Isbell Jr."
+  ],
+  "venue_long":"IEEE Comput. Graph. Appl.",
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_etal_-_DODM_-_IEEE-CGA06.pdf"
+},
+{
+  "year":"2006",
+  "title":"Expressive processing: on the process-intensive literature and digital media",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2006",
+  "title":"First Person: New Media as Story, Performance, and Game",
+  "authors":[
+    "Noah Wardrip-Fruin",
+    "Pat Harrigan"
+  ],
+  "url":""
+},
+{
+  "year":"2006",
+  "title":"Game Design Education: Integrating Computation and Culture",
+  "authors":[
+    "Janet Murray",
+    "Ian Bogost",
+    "Michael Mateas",
+    "Michael Nitsche"
+  ],
+  "venue_long":"Computer",
+  "url":""
+},
+{
+  "year":"2006",
+  "title":"Initial lessons from AR Façade, an interactive augmented reality drama",
+  "authors":[
+    "Steven Dow",
+    "Manish Mehta",
+    "Annie Lausier",
+    "Blair MacIntyre",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2006",
+  "title":"Procedural level design for platform games",
+  "authors":[
+    "Kate Compton",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2006",
+  "title":"Reinforcement learning for declarative optimization-based drama management",
+  "authors":[
+    "Mark Nelson",
+    "David Roberts",
+    "Charles Isbell",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_etal_-_RL_for_DODM_-_AAMAS06.pdf"
+},
+{
+  "year":"2006",
+  "title":"Tableau machine: an alien presence in the home",
+  "authors":[
+    "Mario Romero",
+    "Zachary Pousman",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2006",
+  "title":"Targeting specific distributions of trajectories in MDPs",
+  "authors":[
+    "David Roberts",
+    "Mark Nelson",
+    "Charles Isbell",
+    "Michael Mateas",
+    "Michael Littman"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Roberts_etal_-_TTD-MDP_-_AAAI06.pdf"
+},
+{
+  "year":"2006",
+  "title":"On the difficulty of modular reinforcement learning for real-world partial programming",
+  "authors":[
+    "Sooraj Bhat",
+    "Charles Isbell Jr.",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2005",
+  "title":"Build it to understand it: Ludology meets narratology in game design space",
+  "authors":[
+    "Michael Mateas",
+    "Andrew Stern"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/MateasSternDIGRA05.pdf"
+},
+{
+  "year":"2005",
+  "title":"Cave writing: toward a platform for literary immersive VR",
+  "authors":[
+    "Sascha Becker",
+    "Shawn Greenlee",
+    "Dmitri Lemmerman",
+    "Morgan McGuire",
+    "Nicholas Musurca",
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2005",
+  "title":"Evolution of space configuration in videogames",
+  "authors":[
+    "Clara Fernández-Vara",
+    "Jose Zagal",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"2005",
+  "title":"Playable Media and Textual Instruments",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "venue_long":"Dichtung Digital",
+  "url":""
+},
+{
+  "year":"2005",
+  "title":"Preliminary evaluation of the interactive drama Façade",
+  "authors":[
+    "Rachel Knickmeyer",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/KnickmeyerMateasCHI2005.pdf"
+},
+{
+  "year":"2005",
+  "title":"Search-based drama management in the interactive fiction Anchorhead",
+  "authors":[
+    "Mark Nelson",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Nelson_Mateas_-_SBDM_-_AIIDE05.pdf"
+},
+{
+  "year":"2005",
+  "title":"Structuring content in the Façade interactive drama architecture",
+  "authors":[
+    "Michael Mateas",
+    "Andrew Stern"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/MateasSternAIIDE05.pdf"
+},
+{
+  "year":"2005",
+  "title":"Towards an ontological language for game analysis",
+  "authors":[
+    "Jose Zagal",
+    "Michael Mateas",
+    "Clara Fernández-Vara",
+    "Brian Hochhalter",
+    "Nolan Lichti"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/OntologyDIGRA2005.pdf"
+},
+{
+  "year":"2005",
+  "title":"A box, darkly: Obfuscated code, weird languages, and code aesthetics",
+  "authors":[
+    "Michael Mateas",
+    "Nick Montfort"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/a_box_darkly.pdf"
+},
+{
+  "year":"2004",
+  "title":"First Person: New Media as Story, Performance, and Game",
+  "authors":[
+    "Noah Wardrip-Fruin",
+    "Pat Harrigan"
+  ],
+  "url":""
+},
+{
+  "year":"2004",
+  "title":"Natural language processing in Façade: Surface-text processing",
+  "authors":[
+    "Michael Mateas",
+    "Andrew Stern"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/MateasSternTIDSE04.pdf"
+},
+{
+  "year":"2004",
+  "title":"What hypertext is",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2003",
+  "title":"The New Media Reader",
+  "authors":[
+    "Noah Wardrip-Fruin",
+    "Nick Montfort"
+  ],
+  "url":""
+},
+{
+  "year":"2003",
+  "title":"Screen: bodily interaction with text in immersive VR",
+  "authors":[
+    "Joshua Carroll",
+    "Robert Coover",
+    "Shawn Greenlee",
+    "Andrew McClain",
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"2002",
+  "title":"A Behavior Language for Story-Based Believable Agents",
+  "authors":[
+    "Michael Mateas",
+    "Andrew Stern"
+  ],
+  "venue_long":"IEEE Intelligent Systems",
+  "url":""
+},
+{
+  "year":"2002",
+  "title":"Extending interface practice: an ecosystem approach",
+  "authors":[
+    "Natalie Jeremijenko",
+    "Thecla Schiphorst",
+    "Michael Mateas",
+    "Wolfgang Strauss",
+    "Will Wright",
+    "Andruid Kerne"
+  ],
+  "url":""
+},
+{
+  "year":"2002",
+  "title":"Interactive drama, art and artificial intelligence",
+  "authors":[
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/CMU-CS-02-206.pdf"
+},
+{
+  "year":"2002",
+  "title":"Interactive stories: real systems, three solutions",
+  "authors":[
+    "Noah Wardrip-Fruin",
+    "Andrew Stern",
+    "Peter Molyneux",
+    "Michael Mateas",
+    "Bernard Yee"
+  ],
+  "url":""
+},
+{
+  "year":"2001",
+  "title":"Expressive AI: A hybrid art and science practice",
+  "authors":[
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Leonardo2001.pdf"
+},
+{
+  "year":"2000",
+  "title":"Generation of Ideologically-Biased Historical Documentaries",
+  "authors":[
+    "Michael Mateas",
+    "Paul Vanouse",
+    "Steffi Domike"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/AAAI2000.pdf"
+},
+{
+  "year":"2000",
+  "title":"A neo-Aristotelian theory of interactive drama",
+  "authors":[
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/MMateas00.pdf"
+},
+{
+  "year":"1999",
+  "title":"Hypermedia, eternal life, and the impermanence agent",
+  "authors":[
+    "Noah Wardrip-Fruin"
+  ],
+  "url":""
+},
+{
+  "year":"1999",
+  "title":"An Oz-centric review of interactive drama and believable agents",
+  "authors":[
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/CMU-CS-97-156.html_.pdf"
+},
+{
+  "year":"1998",
+  "title":"Office Plant #1: Intimate space and contemplative entertainment",
+  "authors":[
+    "Marc Boehlen",
+    "Michael Mateas"
+  ],
+  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/Leonardo1998.pdf"
+},
+{
+  "year":"1998",
+  "title":"Subjective avatars (poster)",
+  "authors":[
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"1997",
+  "title":"Introduction to design ethnography",
+  "authors":[
+    "Tony Salvador",
+    "Michael Mateas"
+  ],
+  "url":""
+},
+{
+  "year":"1997",
+  "title":"A zooming sketchpad, a multiscale narrative: Pad++, PadDraw, Gray Matters",
+  "authors":[
+    "Noah Wardrip-Fruin",
+    "John Meyer",
+    "Ken Perlin",
+    "Ben Bederson",
+    "Jim Hollan"
+  ],
+  "url":""
+},
+{
+  "year":"1996",
+  "title":"Engineering ethnography in the home",
+  "authors":[
+    "Michael Mateas",
+    "Tony Salvador",
+    "Jean Scholtz",
+    "Doug Sorensen"
+  ],
+  "url":""
+},
+{
+  "year":"1996",
+  "title":"Ethnographic data for product development: a collaborative process",
+  "authors":[
+    "Scott Lewis",
+    "Michael Mateas",
+    "Susan Palmiter",
+    "Gene Lynch"
+  ],
+  "venue_long":"interactions",
+  "url":""
+},
+{
+  "year":"1996",
+  "title":"User requirements analysis for the home",
+  "authors":[
+    "Jean Scholtz",
+    "Michael Mateas",
+    "Tony Salvador",
+    "Doug Sorensen"
+  ],
+  "url":""
 },
 ]
