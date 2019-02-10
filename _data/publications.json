@@ -253,7 +253,7 @@
 },
 {
   "title": "Toward Characters Who Observe, Tell, Misremember, and Lie",
-  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_TowardCharactersWhoObserveTellMisrememberLie.pdf",
+  "url": "/papers/ryanEtAl_TowardCharactersWhoObserveTellMisrememberLie.pdf",
   "authors": ["James Ryan", "Adam Summerville", "Michael Mateas", "Noah Wardrip-Fruin"],
   "year": "2015",
   "venue": "AIIDE",
@@ -323,7 +323,7 @@
 },
 {
   "title": "PCG-Based Game Design: Creating Endless Web",
-  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/smith-fdg12.pdf",
+  "url": "/papers/smith-fdg12.pdf",
   "authors": ["Gillian Smith", "Alexei Othenin-Girard", "Jim Whitehead", "Noah Wardrip-Fruin"],
   "year": "2012",
   "venue": "FDG",
@@ -331,7 +331,7 @@
 },
 {
   "title": "Answer Set Programming for Procedural Content Generation: A Design Space Approach",
-  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/tciaig-asp4pcg.pdf",
+  "url": "/papers/tciaig-asp4pcg.pdf",
   "authors": ["Adam M. Smith", "Michael Mateas"],
   "year": "2011",
   "venue": "TCAIG",
@@ -394,7 +394,7 @@
     "Adam Smith",
     "Michael Mateas"
   ],
-  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ieeecig20_vf.pdf"
+  "url":"/papers/ieeecig20_vf.pdf"
 },
 {
   "year":"2010",
@@ -404,7 +404,7 @@
     "Jim Whitehead",
     "Noah Wardrip-Fruin"
   ],
-  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/taxonomy.pdf"
+  "url":"https://users.soe.ucsc.edu/~ejw/papers/lewis-taxonomy-fdg2010.pdf"
 },
 {
   "year":"2010",
@@ -412,7 +412,7 @@
   "authors":[
     "Chris Lewis"
   ],
-  "url":"https://eis-dev.soe.ucsc.edu/sites/default/files/papers/doccon.pdf"
+  "url":"/papers/doccon.pdf"
 },
 {
   "year":"2010",
