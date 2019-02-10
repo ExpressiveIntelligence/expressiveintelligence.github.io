@@ -197,7 +197,7 @@
 },
 {
   "title": "Bad News: A Game of Death and Communication",
-  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_BadNewsCHI2016.pdf",
+  "url": "/pdf/ryanEtAl_BadNewsCHI2016.pdf",
   "authors": ["James Ryan", "Adam Summerville", "Ben Samuel"],
   "year": "2016",
   "venue": "CHI EA",
