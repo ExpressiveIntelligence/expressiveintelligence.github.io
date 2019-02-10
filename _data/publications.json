@@ -197,7 +197,7 @@
 },
 {
   "title": "Bad News: A Game of Death and Communication",
-  "url": "/pdf/ryanEtAl_BadNewsCHI2016.pdf",
+  "url": "/papers/ryanEtAl_BadNewsCHI2016.pdf",
   "authors": ["James Ryan", "Adam Summerville", "Ben Samuel"],
   "year": "2016",
   "venue": "CHI EA",
@@ -221,7 +221,7 @@
 },
 {
   "title": "Open Design Challenges for Interactive Emergent Narrative",
-  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_OpenDesignChallengesForInteractiveEmergentNarrative.pdf",
+  "url": "/papers/ryanEtAl_OpenDesignChallengesForInteractiveEmergentNarrative.pdf",
   "authors": ["James Ryan", "Michael Mateas", "Noah Wardrip-Fruin"],
   "year": "2015",
   "venue": "ICIDS",
@@ -237,7 +237,7 @@
 },
 {
   "title": "What We Talk About When We Talk About Games: Bottom-Up Game Studies Using Natural Language Processing",
-  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_BottomUpGamesStudiesUsingNLP.pdf",
+  "url": "/papers/ryanEtAl_BottomUpGamesStudiesUsingNLP.pdf",
   "authors": ["James Ryan", "Eric Kaltman", "Michael Mateas", "Noah Wardrip-Fruin"],
   "year": "2015",
   "venue": "FDG",
@@ -245,7 +245,7 @@
 },
 {
   "title": "People Tend To Like Related Games",
-  "url": "https://eis-dev.soe.ucsc.edu/sites/default/files/papers/ryanEtAl_PeopleTendToLikeRelatedGames.pdf",
+  "url": "/papers/ryanEtAl_PeopleTendToLikeRelatedGames.pdf",
   "authors": ["James Ryan", "Eric Kaltman", "Timothy Hong", "Michael Mateas", "Noah Wardrip-Fruin"],
   "year": "2015",
   "venue": "FDG",
