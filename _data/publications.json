@@ -109,7 +109,7 @@
   "url": "",
   "authors": ["Adam Summerville", "Chris Martens", "Sarah Harmon", "Michael Mateas", "Joseph Carter Osborn", "Noah Wardrip-Fruin", "Arnav Jhala"],
   "year": "2017",
-  "venue": "TCAIG",
+  "venue": "TCIAIG",
   "venue_long": "Transactions on Computational Intelligence and AI in Games"
 },
 {
@@ -272,7 +272,7 @@
   "url": "http://games.cs.uno.edu/publications/papers/mccoy2014cif.pdf",
   "authors": ["Joshua McCoy", "Mike Treanor", "Ben Samuel", "Aaron A. Reed", "Michael Mateas", "Noah Wardrip-Fruin"],
   "year": "2014",
-  "venue": "TCAIG",
+  "venue": "TCIAIG",
   "venue_long": "Transactions on Computational Intelligence and AI in Games"
 },
 {
@@ -334,7 +334,7 @@
   "url": "/papers/tciaig-asp4pcg.pdf",
   "authors": ["Adam M. Smith", "Michael Mateas"],
   "year": "2011",
-  "venue": "TCAIG",
+  "venue": "TCIAIG",
   "venue_long": "Transactions on Computational Intelligence and AI in Games"
 },
 {
