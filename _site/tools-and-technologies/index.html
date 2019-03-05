@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Tools & Technologies | EIS</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ::selection {
+    background: #0c5eb1;
+    color: white;
+  }
+  ::-moz-selection {
+    background: #0c5eb1;
+    color: white;
+  }
+  body {
+    /*background: #f2f2f2;*/
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: .45px rgba(0,0,0,.1);
+  }
+  a {
+    color: #0c5eb1; /* brand-color blue */
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f16c0a; /* brand-color orange */
+  }
+
+  /* site header */
+  .site-header {
+    background: #f2f2f2;
+  }
+  .site-header h1 {
+    padding: 0.5em;
+    padding-left: 5%;
+  }
+  .site-header h1 a {
+    color: inherit;
+  }
+  .site-nav {
+    background: #0c5eb1;
+    font-weight: bold;
+  }
+  .site-nav {
+    padding-left: 5%;
+  }
+  .site-nav ul li {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  .site-nav ul li:first-child {
+    padding-left: 0; /* so it doesn't compound with the left padding on the site-nav itself */
+  }
+  .site-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .site-nav a:hover {
+    color: #f7da50;
+    /*color: #fdee98; brand-color light yellow */
+  }
+
+  /* "halves" standard layout: container for two top-level blocks, each of which takes up half of the page horizontally, collapsing into a single column when the page is narrow */
+  .halves {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .halves > * {
+    width: 50%;
+  }
+  @media (max-width: 900px){
+    .halves > * {
+      margin-bottom: 1em;
+      width: 100%;
+    }
+  }
+
+  /* main page content */
+  .content {
+    background: white;
+    padding: 1.5em 5%;
+  }
+  .content section {
+    background: #f2f2f2;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .content h2 {
+    margin-bottom: 0.25em;
+  }
+  .content h3 {
+    margin-bottom: 0.25em;
+  }
+  .content p {
+    margin-bottom: 1rem;
+  }
+  .content p:last-child {
+    margin-bottom: 0;
+  }
+  .content ul {
+    margin-left: 2em;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th {
+    background: #eee;
+    padding: 0.5em;
+    text-align: left;
+  }
+  td {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em;
+  }
+
+  /* project cards */
+  .project-card {
+    background: #f2f2f2;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .project-card .thumbnail {
+    padding-right: 1em;
+    width: 25%;
+  }
+  .project-card .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .project-card .desc {
+    width: 75%;
+  }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">Expressive Intelligence Studio</a></h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/people">People</a></li>
+        <li><a href="/analyses-and-approaches">Analyses & Approaches</a></li>
+        <li><a href="/tools-and-technologies">Tools & Technologies</a></li>
+        <li><a href="/media-experiences">Media Experiences</a></li>
+        <li><a href="/publications">Publications</a></li>
+        <li><a href="https://eis-blog.soe.ucsc.edu/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="content"><section>
+  <h2>Tools & Technologies</h2>
+  <p>This area of EIS work focuses on enabling new possibilities for making and understanding media.</p>
+  <p>Much of this builds on our work on analyses and approaches. For example, a computational model of social interaction or of quests might build on our analyses of how those are represented in other forms of media and how they have been modeled in computer games and other computational media. Similarly, a tool for natural language generation or accessible game creation might build on design practices we have studied or explored in other contexts.</p>
+  <p>The technologies that result are often new computational models, enabling new types of computational media experiences. But they can also include technologies that do things like automatically create game maps from emulator play or that extract knowledge about build orders from RTS gameplay logs. The tools we create often aim to allow a broader audience to use our novel technologies to create new types of media. But we also create tools for tasks related to computational media, such as discovering relevant examples from the history of computer games or performing software studies analysis grounded in the operations of the software.</p>
+</section>
+
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="/img/storyassembler.png" alt="A snippet of content from a StoryAssembler example story">
+  </div>
+  <div class="desc">
+    <p><strong><a href="https://github.com/LudoNarrative/StoryAssembler">StoryAssembler</a></strong> is a planning-based generative narrative system designed around the idea of <em>intent-driven</em> generation. The author of a StoryAssembler story specifies a list of requirements that any given playthrough of the story should fulfill, and the system plots a path through its library of available story content in order to ensure that these requirements are met. Moreover, unlike many other narrative generation systems, StoryAssembler supports generation of choice-based in addition to linear stories, allowing authors to write stories that respond dynamically to player choices.</p>
+  </div>
+</article>
+
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="http://tracery.io/images/interruption3.gif" alt="Interruption Junction, a game by Squinky that uses Tracery for dialogue generation">
+  </div>
+  <div class="desc">
+    <p><strong><a href="http://tracery.io/">Tracery</a></strong> is an approachable text generation tool and language. It's been used by middle school students, humanities professors, indie game developers, professional bot makers, and lots of regular people, too. Among other things, it's the language behind <a href="https://cheapbotsdonequick.com/">Cheap Bots, Done Quick!</a>, which has been used to make a whole bunch of playful and artful Twitter bots.</p>
+    <p>Try it out in the <strong><a href="http://tracery.io/editor/">online editor</a></strong>!</p>
+  </div>
+</article>
+
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="https://static1.squarespace.com/static/58fb957a3a041197bb7f37f9/t/591114a4725e256f43ec94bb/1494291622946/expressionist.png?format=500w" alt="Placeholder Expressionist Thumbnail">
+  </div>
+  <div class="desc">
+    <p><strong><a href="https://www.jamesryan.world/projects#/expressionist/">Expressionist</a></strong> is an authoring tool for text generation. Influenced by Tracery, Expressionist is intended for non-procedural authors and utilizes generative grammars, which yield huge amounts of content with relatively little authoring effort. Where this tool diverges from Tracery is in its tagging affordance: authors can attach tags to chunks of content, and whenever chunks are used to build larger units of content, the result comes packaged with the tags of all the components. The generated content now comes packaged with author-defined tags about things that matter in the author's game and allows a game engine to request the kind of content it wants by specifying the tags that the content should come packaged with.</p>
+  </div>
+</article>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="https://gamecip.soe.ucsc.edu/sites/default/files/the_gamesage.png" alt="GameSage screenshot">
+  </div>
+  <div class="desc">
+    <p><strong><a href="https://gamecip.soe.ucsc.edu/node/54">GameSage </a></strong> is a tool that takes free-text input describing an idea for a videogame and lists the existing games that are most related to that idea. This tool utilizes the notion in LSA of folding in, whereby a new document that was not used during model training is fitted with a representation in the semantic space derived by the model. By treating the user’s input text (which specifies her game idea) as a corpus document (on par with the videogame Wikipedia articles we used to train our LSA model) and folding it in, we are able to derive an LSA vector for the idea. From here, we determine which existing games are most related to the game idea by using cosine similarity.</p>
+    <p>GameSage can be interacted with <strong><a href="http://gamecip-projects.soe.ucsc.edu/gamesage">here</a></strong>.</p>
+  </div>
+</article>
+</div>
+  </main>
+</body>
+</html>

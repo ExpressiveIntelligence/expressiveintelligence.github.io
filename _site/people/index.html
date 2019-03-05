@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>People | EIS</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ::selection {
+    background: #0c5eb1;
+    color: white;
+  }
+  ::-moz-selection {
+    background: #0c5eb1;
+    color: white;
+  }
+  body {
+    /*background: #f2f2f2;*/
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: .45px rgba(0,0,0,.1);
+  }
+  a {
+    color: #0c5eb1; /* brand-color blue */
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f16c0a; /* brand-color orange */
+  }
+
+  /* site header */
+  .site-header {
+    background: #f2f2f2;
+  }
+  .site-header h1 {
+    padding: 0.5em;
+    padding-left: 5%;
+  }
+  .site-header h1 a {
+    color: inherit;
+  }
+  .site-nav {
+    background: #0c5eb1;
+    font-weight: bold;
+  }
+  .site-nav {
+    padding-left: 5%;
+  }
+  .site-nav ul li {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  .site-nav ul li:first-child {
+    padding-left: 0; /* so it doesn't compound with the left padding on the site-nav itself */
+  }
+  .site-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .site-nav a:hover {
+    color: #f7da50;
+    /*color: #fdee98; brand-color light yellow */
+  }
+
+  /* "halves" standard layout: container for two top-level blocks, each of which takes up half of the page horizontally, collapsing into a single column when the page is narrow */
+  .halves {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .halves > * {
+    width: 50%;
+  }
+  @media (max-width: 900px){
+    .halves > * {
+      margin-bottom: 1em;
+      width: 100%;
+    }
+  }
+
+  /* main page content */
+  .content {
+    background: white;
+    padding: 1.5em 5%;
+  }
+  .content section {
+    background: #f2f2f2;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .content h2 {
+    margin-bottom: 0.25em;
+  }
+  .content h3 {
+    margin-bottom: 0.25em;
+  }
+  .content p {
+    margin-bottom: 1rem;
+  }
+  .content p:last-child {
+    margin-bottom: 0;
+  }
+  .content ul {
+    margin-left: 2em;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th {
+    background: #eee;
+    padding: 0.5em;
+    text-align: left;
+  }
+  td {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em;
+  }
+
+  /* project cards */
+  .project-card {
+    background: #f2f2f2;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .project-card .thumbnail {
+    padding-right: 1em;
+    width: 25%;
+  }
+  .project-card .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .project-card .desc {
+    width: 75%;
+  }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">Expressive Intelligence Studio</a></h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/people">People</a></li>
+        <li><a href="/analyses-and-approaches">Analyses & Approaches</a></li>
+        <li><a href="/tools-and-technologies">Tools & Technologies</a></li>
+        <li><a href="/media-experiences">Media Experiences</a></li>
+        <li><a href="/publications">Publications</a></li>
+        <li><a href="https://eis-blog.soe.ucsc.edu/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="content"><style>
+.sidebyside {
+  /* utility class: lay out children of this element out horizontally side by side, provided they're narrow enough to fit on one line together */
+  display: flex;
+  flex-flow: row wrap;
+}
+.three > section {
+  margin-right: 2%;
+  width: 32%;
+}
+.three > section:last-child {
+  margin-right: 0;
+}
+@media (max-width: 900px){
+  .three > section {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+</style>
+<section>
+  <h2>People</h2>
+  <p>EIS members may be students (from the Computational Media, Digital Art and New Media, and Computer Science programs), post-docs, visiting scholars, or faculty.</p>
+  <p>Former members of EIS are now in a wide range of roles. They are faculty at institutions such as American University, Cal Poly Pomona, Georgia Tech, Goldsmiths, Pomona College, Worcester Polytechnic Institute, UC Davis, UC Santa Cruz, University of Central Florida, and University of New Orleans. They are in industry at companies such as BBN, Caledonia, Electronic Arts, Funomena, Google, Kabam, Spirit AI, Trion Worlds, Y Combinator Research, and Zynga.</p>
+</section>
+<section>
+  <h3>Core Faculty</h3>
+  <div class="sidebyside">
+    <a href="/people/michael-mateas" style="margin-right:0.5em"><img src="/img/mm-small.png" alt="Michael Mateas"></img><p>Michael Mateas</p></a>
+    <a href="/people/noah-wardrip-fruin"><img src="/img/nwf-small.png" alt="Noah Wardrip-Fruin"></img><p>Noah Wardrip-Fruin</p></a>
+  </div>
+</section>
+<div class="sidebyside three">
+  <section>
+    <h3>Ph.D. Students</h3>
+    <ul>
+      <li><a href="http://www.devi-a.com">Devi Acharya</a></li>
+      <li><a href="http://users.soe.ucsc.edu/~kcompton/">Kate Compton</a></li>
+      <li><a href="https://twitter.com/meldckn/">Melanie Dickinson</a></li>
+      <li><a href="http://www.jacobgarbe.com/">Jacob Garbe</a></li>
+      <li><a href="http://users.soe.ucsc.edu/~agrow/">April Grow</a></li>
+      <li><a href="https://mkremins.github.io">Max Kreminski</a></li>
+      <li>Dylan Lederle-Ensign</li>
+      <li><a href="http://danm.ucsc.edu/people/students/stacey-mason">Stacey Mason</a></li>
+    </ul>
+  </section>
+  <section>
+    <h3>Master's Students</h3>
+    <ul>
+      <li><a href="https://cyrilfocht.github.io/">Cyril Focht</a></li>
+      <li><a href="http://www.nickjunius.com/">Nick Junius</a></li>
+      <li>Jordan Magnuson</li>
+      <li>Elisabeth (Beth) Oliver</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Diaspora</h3>
+    <ul>
+      <li>Matthew Balousek (M.F.A.)</li>
+      <li><a href="http://www.originowl.com/">Bryan Blackford</a>&nbsp;(M.S.)</li>
+      <li>Duncan Bowsman (M.F.A.)</li>
+      <li><a href="http://users.soe.ucsc.edu/~sherol">Sherol Chen</a>&nbsp;</li>
+      <li>Mirjam Eladhari (Visiting Scholar)</li>
+      <li><a href="http://nothingsacredgames.com/about/">Teale Fristoe</a>&nbsp;(M.S.)</li>
+      <li>Chaim Gingold (Ph.D.)</li>
+      <li>Katherine Green (M.F.A.)</li>
+      <li><a href="https://www.soe.ucsc.edu/people/jgrey">John Grey</a>&nbsp;(A.B.D.)</li>
+      <li><a href="http://users.soe.ucsc.edu/~fire/">Alexandra Holloway</a>&nbsp;(Ph.D.)</li>
+      <li>Ken Hullett (Ph.D.)</li>
+      <li>Martin Jennings-Teats (M.S.)</li>
+      <li>Eric Kaltman (Ph.D.)</li>
+      <li>Sarah Fay Krom (M.F.A.)</li>
+      <li>Larry LeBron (M.S.)</li>
+      <li>Chris Lewis (Ph.D.)</li>
+      <li>Heather Logas (M.F.A.)</li>
+      <li>Ronald Liu (M.S.)</li>
+      <li><a href="https://www.soe.ucsc.edu/people/pmaddalo">Paul Maddaloni</a>&nbsp;(M.S.)</li>
+      <li>Chris Martens (Post-Doc)</li>
+      <li><a href="https://www.soe.ucsc.edu/people/pmawhorter">Peter Mawhorter</a>&nbsp;(Ph.D.)</li>
+      <li><a href="http://users.soe.ucsc.edu/~mccoyjo/">Josh McCoy</a>&nbsp;(Ph.D., Post-Doc)</li>
+      <li>Wes Modes (M.F.A.)</li>
+      <li><a href="https://www.soe.ucsc.edu/people/lucid">John Murray</a>&nbsp;(Ph.D.)</li>
+      <li><a href="http://www.kmjn.org/">Mark Nelson</a>&nbsp;(Ph.D.)</li>
+      <li><a href="http://users.soe.ucsc.edu/~jcosborn/">Joseph Osborn</a>&nbsp;(Ph.D.)</li>
+      <li>Alexei Othenin-Girard (M.F.A.)</li>
+      <li>Adrian Phillips (M.F.A.)</li>
+      <li>James Pollack (M.F.A.)</li>
+      <li><a href="http://users.soe.ucsc.edu/~aareed/">Aaron Reed</a>&nbsp;(M.F.A., Ph.D.)</li>
+      <li>Allie Riggs (M.F.A.)</li>
+      <li><a href="https://users.soe.ucsc.edu/~jor/">James Ryan</a>&nbsp;(Ph.D.)</li>
+      <li><a href="https://www.soe.ucsc.edu/people/sali">Serdar Sali</a>&nbsp;(Ph.D.)</li>
+      <li><a href="https://www.soe.ucsc.edu/people/bsamuel">Ben Samuel</a>&nbsp;(Ph.D., Post-Doc)</li>
+      <li><a href="http://skorupski.org/wiki/">James Skorupski</a>&nbsp;</li>
+      <li><a href="https://adamsmith.as/">Adam Smith</a>&nbsp;(Ph.D.)</li>
+      <li><a href="http://sokath.com/main/">Gillian Smith</a>&nbsp;(Ph.D.)</li>
+      <li>Benjamin Spalding (M.F.A.)</li>
+      <li>Dietrich Squinkifer (M.F.A.)</li>
+      <li>Christina Strong (Ph.D.)</li>
+      <li><a href="http://users.soe.ucsc.edu/~anne/">Anne M. Sullivan</a>&nbsp;(Ph.D.)</li>
+      <li>Adam Summerville (Ph.D.)</li>
+      <li><a href="https://www.soe.ucsc.edu/people/batman">Brandon Tearse</a>&nbsp;(Ph.D.)</li>
+      <li><a href="http://mtreanor.com/">Mike Treanor</a>&nbsp;(M.F.A.,&nbsp;Ph.D.)</li>
+      <li>Michael Thomét (M.F.A.)</li>
+      <li>Marcelo Viana Neto (M.F.A.)</li>
+      <li><a href="https://sites.google.com/site/bgweber/">Ben Weber</a>&nbsp;(Ph.D.)</li>
+    </ul>
+  </section>
+</div>
+</div>
+  </main>
+</body>
+</html>

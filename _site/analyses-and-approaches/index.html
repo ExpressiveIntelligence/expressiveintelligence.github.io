@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Analyses & Approaches | EIS</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ::selection {
+    background: #0c5eb1;
+    color: white;
+  }
+  ::-moz-selection {
+    background: #0c5eb1;
+    color: white;
+  }
+  body {
+    /*background: #f2f2f2;*/
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: .45px rgba(0,0,0,.1);
+  }
+  a {
+    color: #0c5eb1; /* brand-color blue */
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f16c0a; /* brand-color orange */
+  }
+
+  /* site header */
+  .site-header {
+    background: #f2f2f2;
+  }
+  .site-header h1 {
+    padding: 0.5em;
+    padding-left: 5%;
+  }
+  .site-header h1 a {
+    color: inherit;
+  }
+  .site-nav {
+    background: #0c5eb1;
+    font-weight: bold;
+  }
+  .site-nav {
+    padding-left: 5%;
+  }
+  .site-nav ul li {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  .site-nav ul li:first-child {
+    padding-left: 0; /* so it doesn't compound with the left padding on the site-nav itself */
+  }
+  .site-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .site-nav a:hover {
+    color: #f7da50;
+    /*color: #fdee98; brand-color light yellow */
+  }
+
+  /* "halves" standard layout: container for two top-level blocks, each of which takes up half of the page horizontally, collapsing into a single column when the page is narrow */
+  .halves {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .halves > * {
+    width: 50%;
+  }
+  @media (max-width: 900px){
+    .halves > * {
+      margin-bottom: 1em;
+      width: 100%;
+    }
+  }
+
+  /* main page content */
+  .content {
+    background: white;
+    padding: 1.5em 5%;
+  }
+  .content section {
+    background: #f2f2f2;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .content h2 {
+    margin-bottom: 0.25em;
+  }
+  .content h3 {
+    margin-bottom: 0.25em;
+  }
+  .content p {
+    margin-bottom: 1rem;
+  }
+  .content p:last-child {
+    margin-bottom: 0;
+  }
+  .content ul {
+    margin-left: 2em;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th {
+    background: #eee;
+    padding: 0.5em;
+    text-align: left;
+  }
+  td {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em;
+  }
+
+  /* project cards */
+  .project-card {
+    background: #f2f2f2;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .project-card .thumbnail {
+    padding-right: 1em;
+    width: 25%;
+  }
+  .project-card .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .project-card .desc {
+    width: 75%;
+  }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">Expressive Intelligence Studio</a></h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/people">People</a></li>
+        <li><a href="/analyses-and-approaches">Analyses & Approaches</a></li>
+        <li><a href="/tools-and-technologies">Tools & Technologies</a></li>
+        <li><a href="/media-experiences">Media Experiences</a></li>
+        <li><a href="/publications">Publications</a></li>
+        <li><a href="https://eis-blog.soe.ucsc.edu/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="content"><section>
+  <h2>Analyses & Approaches</h2>
+  <p>This area of EIS work focuses on deepening understanding of computational media and the design approaches that can make it more effective.</p>
+  <p>Our analysis work uses the tools and knowledge of a variety of scholarly areas &mdash; from game studies and software studies to digital humanities and history of technology &mdash; together with the knowledge of artists and designers. We aim to understand areas of contemporary computational media, literary and artistic approaches that can inform new work in computational media, the history of our field, key challenges for future research, and more.</p>
+  <p>Our work in design approaches explores ways of making computational media &mdash; from how creative possibilities can be unlocked for broad audiences to how experts can craft effective experiences. We have also developed approaches to work that is not making computational media, but is related to it, such as the cataloging and citation of computer games.</p>
+</section>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="/img/casual-creators.png" alt="Some examples of casual creators: Let's Create Pottery, the Knitting Nancy, the Spore Creature Creator, Spirograph, Wolfram Tones, and The Sims Create-a-Sim editor">
+  </div>
+  <div class="desc">
+    <p><strong><a href="http://computationalcreativity.net/iccc2015/proceedings/10_2Compton.pdf">Casual creators</a></strong> are a genre of approachable and playful creativity support tools for casual users. They emphasize <em>autotelic</em> creativity (creating things primarily for the enjoyment of the creative process) over task-focused creativity (creating things with a specific goal or outcome in mind), and feature a variety of mutually supportive design patterns that facilitate a playful and exploratory approach to creation. By identifying casual creators as a distinct genre of software worthy of study and cataloguing the design patterns they employ, we hope to help encourage the formation of community among creators and users of these tools and provide resources to guide would-be makers in this design space.</p>
+  </div>
+</article>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="/img/operational-logics.png" alt="List of fifteen key operational logics">
+  </div>
+  <div class="desc">
+    <p><strong><a href="/papers/beyondShootingAndEating-criticalInquiry.pdf">Operational logics and playable models</a></strong> are names for aspects of games that shed light on two related questions: <i>What are the fundamental ways games work?</i> and <i>How can games be about something?</i> "Operational logics" describe a level that is both more specific than common game mechanics (such as "jump" and "shoot") and also cuts across them. These combinations of abstract processes and communicative roles are approached in a number of ways in our work, including as a lens for critical interpretation, a set to be cataloged, and as a foundation for technical research. "Playable models" describe how games create procedural representations of things that happen in their worlds, of which operational logics are primary building blocks. In our work we have looked at playable models of a number of domains, from continuous space to combat.</p>
+  </div>
+</article>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="/img/burger-time.png" alt="Screenshot of BurgerTime, a game we attempted to analyze using the proceduralist readings approach">
+  </div>
+  <div class="desc">
+    <p><strong>Proceduralist readings</strong> are close readings of games that emphasize the representational power of a game’s rules and processes. This approach was initially created to incoporate graphical elements of games into the analysis of games' meaning, intended and unintended. The framework for creating <i>meaning derivations</i> from games set out to clearly express which parts of the game as a whole infrom specific pieces of the close reading. Proceduralist readings initially were focused on games built to convey specific meanings but has been used to analyze classic arcade games as well.</p>
+  </div>
+</article>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="/img/yarn-spinner.png" alt="Screenshot of Yarn Spinner, a tool used for authoring interactive dialogue in Unity">
+  </div>
+  <div class="desc">
+    <p><strong>Choice poetics</strong> is a framework used to analyze choice structures in games and understand their narrative effects. The framework uses the linking structure and content of choices to examine their impact on player experience, how they affect formal readings of a narrative, and potentially how this examination can be used to develop new approaches to choice design.</p>
+  </div>
+</article>
+</div>
+  </main>
+</body>
+</html>

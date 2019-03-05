@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Media Experiences | EIS</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ::selection {
+    background: #0c5eb1;
+    color: white;
+  }
+  ::-moz-selection {
+    background: #0c5eb1;
+    color: white;
+  }
+  body {
+    /*background: #f2f2f2;*/
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: .45px rgba(0,0,0,.1);
+  }
+  a {
+    color: #0c5eb1; /* brand-color blue */
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f16c0a; /* brand-color orange */
+  }
+
+  /* site header */
+  .site-header {
+    background: #f2f2f2;
+  }
+  .site-header h1 {
+    padding: 0.5em;
+    padding-left: 5%;
+  }
+  .site-header h1 a {
+    color: inherit;
+  }
+  .site-nav {
+    background: #0c5eb1;
+    font-weight: bold;
+  }
+  .site-nav {
+    padding-left: 5%;
+  }
+  .site-nav ul li {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  .site-nav ul li:first-child {
+    padding-left: 0; /* so it doesn't compound with the left padding on the site-nav itself */
+  }
+  .site-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .site-nav a:hover {
+    color: #f7da50;
+    /*color: #fdee98; brand-color light yellow */
+  }
+
+  /* "halves" standard layout: container for two top-level blocks, each of which takes up half of the page horizontally, collapsing into a single column when the page is narrow */
+  .halves {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .halves > * {
+    width: 50%;
+  }
+  @media (max-width: 900px){
+    .halves > * {
+      margin-bottom: 1em;
+      width: 100%;
+    }
+  }
+
+  /* main page content */
+  .content {
+    background: white;
+    padding: 1.5em 5%;
+  }
+  .content section {
+    background: #f2f2f2;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .content h2 {
+    margin-bottom: 0.25em;
+  }
+  .content h3 {
+    margin-bottom: 0.25em;
+  }
+  .content p {
+    margin-bottom: 1rem;
+  }
+  .content p:last-child {
+    margin-bottom: 0;
+  }
+  .content ul {
+    margin-left: 2em;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th {
+    background: #eee;
+    padding: 0.5em;
+    text-align: left;
+  }
+  td {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em;
+  }
+
+  /* project cards */
+  .project-card {
+    background: #f2f2f2;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1.5em;
+    padding: 1em;
+  }
+  .project-card .thumbnail {
+    padding-right: 1em;
+    width: 25%;
+  }
+  .project-card .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .project-card .desc {
+    width: 75%;
+  }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="/">Expressive Intelligence Studio</a></h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/people">People</a></li>
+        <li><a href="/analyses-and-approaches">Analyses & Approaches</a></li>
+        <li><a href="/tools-and-technologies">Tools & Technologies</a></li>
+        <li><a href="/media-experiences">Media Experiences</a></li>
+        <li><a href="/publications">Publications</a></li>
+        <li><a href="https://eis-blog.soe.ucsc.edu/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="content"><section>
+  <h2>Media Experiences</h2>
+  <p>This area of EIS work focuses on design research toward new genres of audience experience.</p>
+  <p>We believe new technologies, tools, and design approaches for creating computational media are often best understood and evaluated by using them to create novel works of media. This helps establish whether something new has truly been enabled &mdash; and shows at least one example of the audience experiences that are possible. It also reveals issues that tend to remain invisible with projects that only reach the technology or prototype phase. Finally, it also makes it possible to expand the public’s understanding of how computational media can work and what it can be about.</p>
+  <p>The resulting projects take a variety of forms, from pure software to hybrids involving physical materials and live performance. We share this work in a range of ways, from festival and museum showings to public releases.</p>
+</section>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="/img/bad-news.jpg" alt="Someone playing Bad News">
+  </div>
+  <div class="desc">
+    <p><strong><a href="https://www.badnewsgame.com/">Bad News</a></strong> is a computationally mediated installation and performance piece set in a procedurally generated small American town. Someone in the town has just died, and the player — a mortician’s assistant — has been tasked with tracking down and notifying the deceased’s next of kin. In order to do this, the player must interact with the town’s simulated inhabitants — portrayed by a professional actor — in a series of one-on-one conversations. The actor, in turn, is supported by a behind-the-scenes “wizard”, who listens in remotely to manage the unfolding experience via live coding and discreet communication with the actor. Bad News has been mounted internationally, at venues including the San Francisco Museum of Modern Art, Slamdance Film Festival, and IndieCade, where it won the 2016 Audience Choice award.</p>
+  </div>
+</article>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="/img/ice-bound.png" alt="Ice-Bound Concordance screenshot">
+  </div>
+  <div class="desc">
+    <p><strong><a href="http://ice-bound.com/">The Ice-Bound Concordance</a></strong> is an award-winning interactive narrative game where the story is constructed from fluidly recombined building blocks, and where themes and endings are discovered with the help of a physical art book, The Ice-Bound Compendium. The game’s dynamic narrative system avoids branching paths, instead assembling and reconfiguring story fragments based on player exploration of different events and narrative themes, and the player's developing relationship with an AI author character. The Concordance also recognizes pages shown to it by the player from the printed book, and changes and animates the pages using augmented reality. The Ice-Bound Concordance won the award for Best Story and World Design at IndieCade 2014 and was a finalist for the Excellence in Narrative award at the Independent Games Festival 2015.</p>
+  </div>
+</article>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="https://gamecip.soe.ucsc.edu/sites/default/files/theSpace.png" alt="GameSpace screenshot">
+  </div>
+  <div class="desc">
+    <p><strong><a href="https://gamecip.soe.ucsc.edu/gamespace">GameSpace</a></strong> is a three-dimensional visualization of 16,000 games on Wikipedia. The visualization uses natural language processing (NLP) machine learning algorithms to position games based on their Wikipedia article text. This is the same process (latent semantic analysis) that was used to derive the <a href="https://gamecip.soe.ucsc.edu/node/53">GameNet</a>, <a href="https://gamecip.soe.ucsc.edu/node/54">GameSage</a>, and <a href="https://gamecip.soe.ucsc.edu/node/55">GameGlobs</a> models, with an additional step that uses t-stochastic neighborhood embedding (TSNE) to provide each game with a three dimensional coordinate in a "galaxy" of games.</p>
+    <p>GameSpace can be interacted with at <strong><a href="http://gamespace.io">gamespace.io</a></strong>.</p>
+  </div>
+</article>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="https://promweek.soe.ucsc.edu/wp-content/uploads/2012/10/newInterface.jpg" alt="Prom Week screenshot">
+  </div>
+  <div class="desc">
+    <p><strong><a href="https://promweek.soe.ucsc.edu/">Prom Week</a></strong> is a social simulation game driven by a novel artificial intelligence engine, with the goal of making social interactions truly playable. Just as games like Angry Birds support emergent solutions to physical challenges, Prom Week’s underlying simulation of social considerations (containing over 5,000 rules of social norms and behaviors) allow for emergent solutions to social challenges. And unlike games like The Sims which use abstractions such as nonsense words or icons to represent language, Prom Week features actual English dialogue, and characters with detailed histories, likes, dislikes, permanent traits, and temporary statuses &mdash; all of which can be leveraged by the player to produce just the right prom night story. Prom Week was a finalist at the 2012 Independent Games Festival and IndieCade Festival, won the  Intelligent Virtual Agents 2012 GALA demo and video festival and the Best AI in an Independent Game from AI Game Dev, and was covered in venues such as <i><a href="https://www.newscientist.com/article/mg21328555-100-be-school-prom-queen-in-social-physics-game/">New Scientist</a></i> and <i><a href="https://www.rockpapershotgun.com/2012/02/16/impressions-prom-week/">Rock Paper Shotgun.</a></i></p>
+    <p>Prom Week can be played on <strong><a href="http://apps.facebook.com/promweek">Facebook</a></strong>.</p>
+  </div>
+</article>
+<article class="project-card">
+  <div class="thumbnail">
+    <img src="/img/facade.jpg" alt="Facade screenshot">
+  </div>
+  <div class="desc">
+    <p><strong><a href="https://www.playablstudios.com/facade">Façade</a></strong> is an AI-driven experimental game, allowing players to experience the first fully-realized interactive drama. Integrating an interdisciplinary set of artistic practices and artificial intelligence technologies, it includes a novel architecture for supporting emotional, interactive character behavior and drama-managed plot. Within this architecture resides a dramatically interesting, real-time 3D virtual world inhabited by computer-controlled characters, in which the player experiences a story from a first-person perspective. Façade has been downloaded more than five million times, widely exhibited, covered in publications such as <i><a href="https://www.nytimes.com/2005/06/07/arts/redefining-the-power-of-the-gamer.html">The New York Times</a></i> and <i><a href="https://www.theatlantic.com/magazine/archive/2006/11/sex-lies-and-videogames/305293/">The Atlantic Monthly,</a></i> and featured in YouTube videos viewed more than 100 million times.</p>
+  </div>
+</article>
+</div>
+  </main>
+</body>
+</html>
