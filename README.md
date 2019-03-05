@@ -1,6 +1,6 @@
 # eis-static
 
-A preliminary attempt at a [Jekyll](https://jekyllrb.com/) version of the new EIS website.
+Website for the [Expressive Intelligence Studio](https://eis.ucsc.edu) (EIS), a technical and cultural research group at UC Santa Cruz.
 
 
 ## Getting Started
@@ -40,6 +40,7 @@ Stop the server with ctrl-c.
 * `_config.yml`: The Jekyll configuration file. Ours is pretty straightforward at the moment, since we're not trying to do anything especially fancy, but you could modify this to do things like add new article types other than the default `page`.
 * `_data/publications.json`: An incomplete list of all our publications, stored as an array of JSON objects. This is used to build the table of publications on the site's `/publications` page, and could also be used as a data source for other pages. (For instance, we could pull out all the publications with a given tag and render them on the page for a particular project.)
 * `_layouts/page.html`: The base layout for the `page` article type (currently used by every page on the site.) This is where you can go to change things like the site-wide header or the global CSS styles.
+* `_site/`: This directory contains the built version of the site. You shouldn't create, edit, or delete files in here directly; Jekyll will manage the contents of this directory for you. Run `jekyll build` (or `jekyll serve`) to regenerate the built version of the site.
 
 ## FAQ
 
@@ -54,3 +55,7 @@ Jekyll uses the [Liquid template language](https://shopify.github.io/liquid/) to
 ### Why are all the pages stored as `{{actual-page-name}}/index.html` instead of `{{actual-page-name}}.html`?
 
 It's a matter of personal preference! I think URLs look cleaner without unnecessary filetype suffixes, and this is a way to achieve the cleaner URLs I crave.
+
+### Why is the `_site/` directory included in the repository?
+
+Including the `_site/` directory in the repository makes it easier for us to automatically deploy the built version of the site to the BSOE web servers from GitHub without adding any extra steps to our existing deploy process. Doing this is unusual for a GitHub Pages site and we should probably find a better way to go about handling the deploy process in the future.
