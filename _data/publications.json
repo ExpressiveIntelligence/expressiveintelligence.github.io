@@ -1,5 +1,37 @@
 [
 {
+  "title": "StoryAssembler: An Engine for Generating Dynamic Choice-Driven Narratives",
+  "url": "",
+  "authors": ["Jacob Garbe", "Max Kreminski", "Ben Samuel", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2019",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games (forthcoming)"
+},
+{
+  "title": "Building Worlds Together: Understanding Collaborative Co-Creation of Game Worlds",
+  "url": "",
+  "authors": ["Devi Acharya", "Noah Wardrip-Fruin"],
+  "year": "2019",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games (forthcoming)"
+},
+{
+  "title": "Towards Expressive Input for Character Dialogue in Digital Games",
+  "url": "",
+  "authors": ["Nick Junius", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2019",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games (forthcoming)"
+},
+{
+  "title": "Exploring How Changes in Game Systems Generate Meaning",
+  "url": "",
+  "authors": ["Batu Aytemiz", "Nick Junius", "other authors TBD"],
+  "year": "2019",
+  "venue": "DiGRA",
+  "venue_long": "Digital Games Research Association (forthcoming)"
+},
+{
   "title": "Sketching a Map of the Storylets Design Space",
   "url": "https://mkremins.github.io/publications/Storylets_SketchingAMap.pdf",
   "authors": ["Max Kreminski", "Noah Wardrip-Fruin"],
