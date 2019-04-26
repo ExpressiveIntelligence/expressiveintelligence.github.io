@@ -5,7 +5,7 @@ Website for the [Expressive Intelligence Studio](https://eis.ucsc.edu) (EIS), a 
 
 ## Getting Started
 
-If you have Windows, you first need to install Ruby+Devkit from [RubyInstaller](https://rubyinstaller.org/downloads/), then you can continue with the steps below (see the docs [here](https://jekyllrb.com/docs/installation/windows/) if you have trouble).  
+If you have Windows, you first need to install Ruby+Devkit from [RubyInstaller](https://rubyinstaller.org/downloads/), then you can continue with the steps below. See the docs [here](https://jekyllrb.com/docs/installation/windows/) if you have trouble.
 
 To start editing the site, install Jekyll:
 ```
@@ -28,11 +28,12 @@ Use a browser to navigate to the server address given by the command (e.g., http
 Stop the server with ctrl-c.
 
 ## Editing the Site
-1. Pull before adding anything using `git pull`
+1. Before adding anything, use `git pull` to pull any changes made since you last touched the site
 2. Make edits
 3. Test your changes in the site with `jekyll serve` and navigating to the given address 
-3. Confirm your changes locally and get them ready to push with `git add` and `git commit`
-4. Share your changes using `git push` (directly to the master branch) 
+4. Before committing, run `jekyll build` to update the `_site/` directory
+5. Confirm your changes locally and get them ready to push with `git add` and `git commit` (including any changes to the `_site/` directory)
+6. Share your changes using `git push` (directly to the master branch) 
 - Don’t make branches for now (we’ll use branches for making future iterations of the site)
 
 ## Some Interesting Files
@@ -43,6 +44,12 @@ Stop the server with ctrl-c.
 * `_site/`: This directory contains the built version of the site. You shouldn't create, edit, or delete files in here directly; Jekyll will manage the contents of this directory for you. Run `jekyll build` (or `jekyll serve`) to regenerate the built version of the site.
 
 ## FAQ
+
+### How do the contents of this repository get mirrored to the BSOE server?
+
+A cron job on the BSOE server regularly pulls down the contents of the `_site/` directory from this repository and makes them available at https://eis.ucsc.edu. As a result, only changes that are made to the `_site/` directory will be reflected on the official version of the site. This is why it's important to run `jekyll build` (and commit any resulting changes to the `_site/` directory) before you push an updated version of the site to this repo.
+
+Including the `_site/` directory in the repository is unusual for a GitHub Pages site, but makes it possible for us to automatically mirror the site to the BSOE server without installing Jekyll there as well. We should probably find a better way to go about handling the deploy process in the future.
 
 ### Why do all the page files start with three dashes, a `title: Some page title` line, and three more dashes?
 
@@ -55,7 +62,3 @@ Jekyll uses the [Liquid template language](https://shopify.github.io/liquid/) to
 ### Why are all the pages stored as `{{actual-page-name}}/index.html` instead of `{{actual-page-name}}.html`?
 
 It's a matter of personal preference! I think URLs look cleaner without unnecessary filetype suffixes, and this is a way to achieve the cleaner URLs I crave.
-
-### Why is the `_site/` directory included in the repository?
-
-Including the `_site/` directory in the repository makes it easier for us to automatically deploy the built version of the site to the BSOE web servers from GitHub without adding any extra steps to our existing deploy process. Doing this is unusual for a GitHub Pages site and we should probably find a better way to go about handling the deploy process in the future.
