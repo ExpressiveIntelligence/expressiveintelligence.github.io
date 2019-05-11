@@ -37,15 +37,7 @@
   "authors": ["Max Kreminski", "Noah Wardrip-Fruin"],
   "year": "2018",
   "venue": "ICIDS",
-  "venue_long": "International Conference on Interactive Digital Storytelling",
-  "bibtex": "@inproceedings{kreminski2018sketching,
-      title={Sketching a Map of the Storylets Design Space},
-      author={Kreminski, Max and Wardrip-Fruin, Noah},
-      booktitle={International Conference on Interactive Digital Storytelling},
-      pages={160--164},
-      year={2018},
-      organization={Springer}
-    }"
+  "venue_long": "International Conference on Interactive Digital Storytelling"
 },
 {
   "title": "Throwing Bottles at God: Predictive Text as a Game Mechanic in an AI-Based Narrative Game",
@@ -79,6 +71,15 @@
   "venue": "Critical Inquiry",
   "venue_long": "Critical Inquiry",
   "tags": ["operational logics"]
+},
+{
+  "title": "Choice Poetics by Example",
+  "url": "/papers/ChoicePoeticsByExample.pdf",
+  "authors": ["Peter Mawhorter", "Carmen Zegura", "Alex Gray", "Arnav Jhala", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2018",
+  "venue": "Arts",
+  "venue_long": "Arts",
+  "tags": ["choice poetics"]
 },
 {
   "title": "Procedural Content Generation via Machine Learning (PCGML)",
@@ -330,6 +331,15 @@
   "venue_long": "Foundations of Digital Games"
 },
 {
+  "title": "Towards a Theory of Choice Poetics",
+  "url": "http://www.fdg2014.org/papers/fdg2014_paper_19.pdf",
+  "authors": ["Peter Mawhorter", "Michael Mateas", "Noah Wardrip-Fruin", "Arnav Jhala"],
+  "year": "2014",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games",
+  "tags": ["choice poetics"]
+},
+{
   "title": "A Methodology for Requirements Analysis of AI Architecture Authoring Tools",
   "url": "https://games.soe.ucsc.edu/sites/default/files/Grow%20et%20al%20-%20A%20Methodology%20for%20Requirements%20Analysis%20for%20AI%20Architecture%20Authoring%20Tools.pdf",
   "authors": ["April Grow", "Swen Gaudl", "Paulo Gomes", "Michael Mateas", "Noah Wardrip-Fruin"],
@@ -379,7 +389,7 @@
 },
 {
   "title": "Proceduralist Readings: How to Find Meaning in Games with Graphical Logics",
-  "url": "https://games.soe.ucsc.edu/sites/default/files/Proceduralist%20Readings%20%28camera%20ready%29.pdf",
+  "url": "/papers/ProceduralistReadings.pdf",
   "authors": ["Mike Treanor", "Bobby Schweizer", "Ian Bogost", "Michael Mateas"],
   "year": "2011",
   "venue": "FDG",
