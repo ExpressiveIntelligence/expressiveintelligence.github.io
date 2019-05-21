@@ -5,7 +5,7 @@
   "authors": ["Jacob Garbe", "Max Kreminski", "Ben Samuel", "Noah Wardrip-Fruin", "Michael Mateas"],
   "year": "2019",
   "venue": "FDG",
-  "venue_long": "Foundations of Digital Games (forthcoming)"
+  "venue_long": "Foundations of Digital Games"
 },
 {
   "title": "Building Worlds Together: Understanding Collaborative Co-Creation of Game Worlds",
@@ -13,7 +13,7 @@
   "authors": ["Devi Acharya", "Noah Wardrip-Fruin"],
   "year": "2019",
   "venue": "FDG",
-  "venue_long": "Foundations of Digital Games (forthcoming)"
+  "venue_long": "Foundations of Digital Games"
 },
 {
   "title": "Towards Expressive Input for Character Dialogue in Digital Games",
@@ -21,15 +21,15 @@
   "authors": ["Nick Junius", "Noah Wardrip-Fruin", "Michael Mateas"],
   "year": "2019",
   "venue": "FDG",
-  "venue_long": "Foundations of Digital Games (forthcoming)"
+  "venue_long": "Foundations of Digital Games"
 },
 {
   "title": "Exploring How Changes in Game Systems Generate Meaning",
   "url": "",
-  "authors": ["Batu Aytemiz", "Nick Junius", "other authors TBD"],
+  "authors": ["Batu Aytemiz", "Nick Junius", "Nathan Altice"],
   "year": "2019",
   "venue": "DiGRA",
-  "venue_long": "Digital Games Research Association (forthcoming)"
+  "venue_long": "Digital Games Research Association"
 },
 {
   "title": "Sketching a Map of the Storylets Design Space",
