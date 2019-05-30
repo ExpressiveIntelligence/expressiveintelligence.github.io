@@ -34,14 +34,14 @@
 {
   "title": "Towards Expressive Input for Character Dialogue in Digital Games",
   "url": "",
-  "authors": ["Nick Junius", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "authors": ["Nick Junius", "Michael Mateas", "Noah Wardrip-Fruin"],
   "year": "2019",
   "venue": "FDG",
   "venue_long": "Foundations of Digital Games"
 },
 {
   "title": "Exploring How Changes in Game Systems Generate Meaning",
-  "url": "",
+  "url": "/papers/Exploring-How-Changes-in-Game-Systems-Generate-Meaning.pdf",
   "authors": ["Batu Aytemiz", "Nick Junius", "Nathan Altice"],
   "year": "2019",
   "venue": "DiGRA",
