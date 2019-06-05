@@ -1,5 +1,13 @@
 [
 {
+  "title": "Generative Games as Storytelling Partners",
+  "url": "",
+  "authors": ["Max Kreminski", "Noah Wardrip-Fruin"],
+  "year": "2019",
+  "venue": "UX of AI Workshop",
+  "venue_long": "FDG Workshop on the User Experience of Artificial Intelligence in Games"
+},
+{
   "title": "Cozy Mystery Construction Kit: Prototyping Toward an AI-Assisted Collaborative Storytelling Mystery Game",
   "url": "",
   "authors": ["Max Kreminski", "Devi Acharya", "Nick Junius", "Beth Oliver", "Kate Compton", "Melanie Dickinson", "Cyril Focht", "Stacey Mason", "Stella Mazeika", "Noah Wardrip-Fruin"],
