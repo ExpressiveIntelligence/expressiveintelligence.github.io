@@ -48,6 +48,14 @@
   "venue_long": "Foundations of Digital Games"
 },
 {
+  "title": "The Psychological Reality of Procedural Rhetoric",
+  "url": "/papers/PsychologicalReality_ProceduralRhetoric.pdf",
+  "authors": ["Barrett R. Anderson", "Christopher R. Karzmark", "Noah Wardrip-Fruin"],
+  "year": "2019",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
   "title": "Exploring How Changes in Game Systems Generate Meaning",
   "url": "/papers/Exploring-How-Changes-in-Game-Systems-Generate-Meaning.pdf",
   "authors": ["Batu Aytemiz", "Nick Junius", "Nathan Altice"],
