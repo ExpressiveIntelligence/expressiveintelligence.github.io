@@ -40,6 +40,14 @@
   "venue_long": "Workshop on Procedural Content Generation"
 },
 {
+  "title": "Lume: A System for Procedural Story Generation",
+  "url": "/papers/Mason_Lume.pdf",
+  "authors": ["Stacey Mason", "Ceri Stagg", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2019",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games"
+},
+{
   "title": "StoryAssembler: An Engine for Generating Dynamic Choice-Driven Narratives",
   "url": "https://mkremins.github.io/publications/StoryAssembler.pdf",
   "authors": ["Jacob Garbe", "Max Kreminski", "Ben Samuel", "Noah Wardrip-Fruin", "Michael Mateas"],
