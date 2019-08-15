@@ -260,6 +260,14 @@
   "venue_long": "International Conference on Computational Creativity Workshop on Computational Creativity and Social Justice"
 },
 {
+  "title": "The Design of Writing Buddy: A Mixed-Initiative Approach Towards Computational Story Collaboration",
+  "url": "http://www.ben-samuel.com/wp-content/uploads/2016/09/icids-2016-prototype.pdf",
+  "authors": ["Ben Samuel", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2016",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling"
+},
+{
   "title": "Proceduralist Readings, Procedurally",
   "url": "https://www.aaai.org/ocs/index.php/AIIDE/AIIDE16/paper/viewFile/14061/13612",
   "authors": ["Chris Martens", "Adam Summerville", "Michael Mateas", "Joseph Osborn", "Sarah Harmon", "Noah Wardrip-Fruin", "Arnav Jhala"],
