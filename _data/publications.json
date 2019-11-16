@@ -373,6 +373,15 @@
   "venue_long": "International Conference on Computational Creativity"
 },
 {
+  "title": "Composing Social Interactions via Social Games",
+  "url": "/papers/Shapiro_IMMERSE_AAMAS15.pdf",
+  "authors": ["Daniel Shapiro", "Karen Tanenbaum", "Josh McCoy", "Larry LeBron", "Craig Reynolds", "Andrew Stern", "Michael Mateas", "Bill Ferguson", "David Diller", "Kerry Moffitt", "Will Coon", "Bruce Roberts"],
+  "year": "2015",
+  "venue": "AAMAS",
+  "venue_long": "International Conference on Autonomous Agents and Multiagent Systems",
+  "tags": ["IMMERSE"]
+},
+{
   "title": "Social Story Worlds With Comme il Faut",
   "url": "http://games.cs.uno.edu/publications/papers/mccoy2014cif.pdf",
   "authors": ["Joshua McCoy", "Mike Treanor", "Ben Samuel", "Aaron A. Reed", "Michael Mateas", "Noah Wardrip-Fruin"],
@@ -434,6 +443,15 @@
   "year": "2013",
   "venue": "PCG Workshop",
   "venue_long": "Workshop on Procedural Content Generation"
+},
+{
+  "title": "Creating Playable Social Experiences through Whole-Body Interaction with Virtual Characters",
+  "url": "/papers/Shapiro_IMMERSE_AIIDE13.pdf",
+  "authors": ["Daniel Shapiro", "Josh McCoy", "April Grow", "Ben Samuel", "Andrew Stern", "Reid Swanson", "Mike Treanor", "Michael Mateas"],
+  "year": "2013",
+  "venue": "AIIDE",
+  "venue_long": "Artificial Intelligence and Interactive Digital Entertainment",
+  "tags": ["IMMERSE"]
 },
 {
   "title": "PCG-Based Game Design: Creating Endless Web",
