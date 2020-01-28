@@ -462,6 +462,19 @@
   "venue_long": "Foundations of Digital Games"
 },
 {
+  "year":"2012",
+  "title":"The Design of Mismanor: Creating a Playable Quest-Based Story Game",
+  "authors":[
+    "Anne Sullivan",
+    "April Grow",
+    "Michael Mateas",
+    "Noah Wardrip-Fruin"
+  ],
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games",
+  "url":"/papers/designofmismanor.pdf"
+},
+{
   "title": "Answer Set Programming for Procedural Content Generation: A Design Space Approach",
   "url": "/papers/tciaig-asp4pcg.pdf",
   "authors": ["Adam M. Smith", "Michael Mateas"],
