@@ -424,6 +424,14 @@
   "venue_long": "CHI Conference Extended Abstracts on Human Factors in Computing Systems"
 },
 {
+  "title": "Programming Interactivity Requires Both Semantics and Semiotics",
+  "url": "https://conf.researchr.org/getImage/OBT-2016/orig/OBT_2016_paper_2.pdf",
+  "authors": ["Joseph C. Osborn", "Michael Mateas"],
+  "year": "2016",
+  "venue": "POPL OBT",
+  "venue_long": "POPL Off the Beaten Track Workshop"
+},
+{
   "title": "Tracery: An Author-Focused Generative Text Tool",
   "url": "http://www.galaxykate.com/pdfs/ComptonKybartasMateas15-Tracery%20An%20Author-Focused%20Generative%20Text%20Tool.pdf",
   "authors": ["Kate Compton", "Ben Kybartas", "Michael Mateas"],
