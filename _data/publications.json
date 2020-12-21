@@ -1,5 +1,14 @@
 [
 {
+  "title": "How Pac-Man Eats",
+  "url": "https://mitpress.mit.edu/books/how-pac-man-eats",
+  "authors": ["Noah Wardrip-Fruin"],
+  "year": "2020",
+  "venue": "MIT Press",
+  "venue_long": "MIT Press",
+  "pubtype": "book"
+},
+{
   "title": "Toward Example-Driven Program Synthesis of Story Sifting Patterns",
   "url": "https://mkremins.github.io/publications/Synthesifter_INT2020.pdf",
   "authors": ["Max Kreminski", "Noah Wardrip-Fruin", "Michael Mateas"],
