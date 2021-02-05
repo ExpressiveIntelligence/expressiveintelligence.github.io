@@ -1,0 +1,1332 @@
+---
+title: Operational Logics and Playable Models
+---
+<style>
+.content { max-width: 900px; }
+#catalog-intro { margin-bottom: 2rem; }
+.outline-2 { background: #eee; margin-bottom: 2rem; padding: 1rem; }
+.outline-3 { margin-bottom: 0.5rem; }
+#table-of-contents { background: #eee; margin-bottom: 1rem; padding: 1rem; }
+#table-of-contents ul { column-count: 3; }
+ol { margin-bottom: 1rem; }
+@media (max-width: 900px){
+  #left { padding-right: 0; }
+  #right { padding-left: 0; }
+}
+@media (max-width: 560px) {
+  #table-of-contents ul { column-count: 2; }
+}
+</style>
+
+<div id="catalog-intro">
+<h2>Operational Logics</h2>
+<p>This page catalogs fifteen key families of <em>operational logics</em> that games use to create meaning. Each operational logic connects a particular type of abstract computational process to a particular communicative role in the game. <em>Collision logics</em>, for example, connect an abstract computational process capable of detecting and declaring the intersection of virtual objects with the communicative role of conveying to the player that “virtual objects can touch, and these touches can have consequences.”</p>
+
+<div id="table-of-contents">
+<h3>Table of Contents</h3>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#camera-logics">Camera</a></li>
+<li><a href="#chance-logics">Chance</a></li>
+<li><a href="#collision-logics">Collision</a></li>
+<li><a href="#control-logics">Control</a></li>
+<li><a href="#entity-state-logics">Entity-State</a></li>
+<li><a href="#game-mode-logics">Game Mode</a></li>
+<li><a href="#linking-logics">Linking</a></li>
+<li><a href="#persistence-logics">Persistence</a></li>
+<li><a href="#physics-logics">Physics</a></li>
+<li><a href="#progression-logics">Progression</a></li>
+<li><a href="#recombinatory-logics">Recombinatory</a></li>
+<li><a href="#resource-logics">Resource</a></li>
+<li><a href="#selection-logics">Selection</a></li>
+<li><a href="#spatial-matching-logics">Spatial Matching</a></li>
+<li><a href="#temporal-matching-logics">Temporal Matching</a></li>
+</ul>
+</div>
+</div>
+
+<p>This catalog was originally created by <a href="https://research.pomona.edu/jcosborn/">Joe Osborn</a> as part of his dissertation work on <a href="https://escholarship.org/uc/item/67g658wb"><em>Operationalizing Operational Logics</em></a>, and the descriptions of logics presented here currently mirror those in Section 3.4 (“The complete catalog”) of his thesis. Additionally, the theoretical framework of operational logics is described more fully in the following papers and books:</p>
+<ul style="margin-bottom: 1rem;">
+  <li><a href="https://games.soe.ucsc.edu/sites/default/files/Mateas%20Wardrip-Fruin%20DIGRA%202009.pdf">Defining Operational Logics</a></li>
+  <li><a href="https://escholarship.org/content/qt2jh5c6k7/qt2jh5c6k7.pdf">Refining Operational Logics</a></li>
+  <li><a href="/papers/beyondShootingAndEating-criticalInquiry.pdf">Beyond Shooting and Eating: <em>Passage</em>, <em>Dys4ia</em>, and the Meanings of Collision</a></li>
+  <li><a href="https://mitpress.mit.edu/books/how-pac-man-eats"><em>How Pac-Man Eats</em></a></li>
+</ul>
+</div>
+
+
+<div id="outline-container-camera-logics" class="outline-2">
+<h2 id="camera-logics">Camera Logics</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgbad7248" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+ What the player sees is one of potentially several viewports
+ onto a game world, and our viewport can pan, zoom, rotate,
+ etc. On-screen and off-screen parts of the world might act
+ differently, and the player might see several viewports at once.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgda620e3" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+ Moving or altering the shape or position of a camera's projection;
+ mapping this onto other surfaces, e.g., a sub-region of the game screen.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org617da5e" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul>
+<li>Alter the world position of the camera or other aspects of its
+transform (e.g., pan, zoom, rotate)
+<ul>
+<li>Potentially performing some camera wipe or other transition</li>
+</ul></li>
+<li>Choose whether or not to draw certain objects on certain cameras</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd37308c" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul>
+<li>Show the viewport on the game screen where the player can see it</li>
+<li>Project the viewport onto something in world space</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge5ae94d" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul>
+<li>World coordinate space</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org27ef2d7" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-1-6">
+<ul>
+<li>Camera views</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-chance-logics" class="outline-2">
+<h2 id="chance-logics">Chance Logics</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org7368632" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+ Events can play out in unexpected ("random") ways.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf194b5e" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+ Sampling from stationary or nonstationary event sources, along with
+analysis of probabilities, expected values, etc.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1add3b0" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul>
+<li>Check/alter the likelihood of an event occurring.</li>
+<li>Cause an event to happen (perhaps from a pool of events) with some
+likelihood.</li>
+<li>Make a random draw from a stationary or nonstationary source</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org14c08e7" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-2-4">
+<ul>
+<li>Show probabilities like success rates as textual percentages or as
+discrete symbols summarizing their probability</li>
+<li>Show expected values as ranges between minimum and maximum possible
+values</li>
+<li>Highlight extremely unlikely outcomes with visual effects</li>
+<li>For nonstationary sampling as in sampling without replacement (e.g.,
+from a shuffled deck of cards), show the upcoming picks or the
+remaining size of the bag</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8b16204" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-2-5">
+<ul>
+<li>Types of random events</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf8f4e39" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-2-6">
+<ul>
+<li>Chances, for example success rates or expected damage value</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-collision-logics" class="outline-2">
+<h2 id="collision-logics">Collision Logics</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgd9217bc" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+  An illusion of physical space is provided by the fact that some game
+objects occlude the movement of others.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf8300e1" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+  Detection of overlaps between subsets of entities and/or regions of
+space and the automatic triggering of reactions when such overlaps
+occur.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org605e639" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul>
+<li>(Alter/Check) which entities could be said to collide with which other
+entities or regions of space (e.g., collision layers or flags, or hurt
+vs hit boxes)</li>
+<li>Check if two entities or regions are overlapping or touching</li>
+<li>(Alter/Check) the region of space taken up by an entity (e.g., grow or
+shrink an entity or change its collision polygon)</li>
+<li>Enumerate the entities or regions overlapping or touching an entity or
+region</li>
+<li>Separate the positions of two or more entities or regions such that
+they touch but do not intersect</li>
+<li>Determine how far an entity could move towards another entity or
+region without touching or causing an overlap</li>
+<li>Whenever a combination of the above checks becomes true (or remains
+true, or becomes false), perform some abstract operation of this or
+another operational logic involving the objects considered in those
+checks</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf053d6d" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-3-4">
+<ul>
+<li>Shapes or images for each entity or region of space, whose extents and
+appearance correspond to the extents of the corresponding entity, and
+whose positions on screen correspond to their positions in space</li>
+<li>Sound effects or visual effects indicating collision when particular
+objects or re- gions of space begin/continue/cease to touch or overlap</li>
+<li>Textual descriptors detailing the sizes or shapes of entities and
+whether they are touching or overlapping</li>
+<li>The presence or absence of textual descriptors of entities when
+describing a region of space</li>
+<li>Textual messages describing the event when objects
+begin/continue/cease to touch or overlap</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb3d35fc" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-3-5">
+<ul>
+<li>Entities and their positions</li>
+<li>Space</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org056f7e6" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-3-6">
+<ul>
+<li>Collision</li>
+<li>Overlapping</li>
+<li>The extents of objects in space</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-control-logics" class="outline-2">
+<h2 id="control-logics">Control Logics</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgcd08cce" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+  Different entities are controlled by different inputs at different
+times.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org01b3a84" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+  Map button inputs, AI intentions, network socket messages, etc onto
+high-level game actions, possibly grouped onto specific loci of control
+like characters according to the event source.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org203872a" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul>
+<li>Change which character the player (or another event source) is
+controlling</li>
+<li>Change the mapping between low-level inputs and high-level actions</li>
+<li>Determine the available high-level actions at a given time for a given
+actor</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org35c7188" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-4-4">
+<ul>
+<li>Show a graphical indicator like a triangle or colored circle around
+the character being controlled (perhaps mapping colors to event
+sources).</li>
+<li>List the available moves for an actor in a menu overlay.</li>
+<li>Show a picture of e.g., a keyboard or a controller with labeled lines
+illustrating which buttons perform which high-level actions.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga2d0af9" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-4-5">
+<ul>
+<li>High-level actions</li>
+<li>Event sources/actors</li>
+<li>Loci of control (e.g., game entities)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge9128b6" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-4-6">
+<ul>
+<li>Available actions for a given actor</li>
+<li>Which actor controls which locus</li>
+<li>Which actors are present/active</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-entity-state-logics" class="outline-2">
+<h2 id="entity-state-logics">Entity-State Logics</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orge74357c" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+  Game entities act in different ways or have different capabilities at
+different times, intrinsic to each such entity.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8fe0256" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+  Governing the finite, discrete states of a set of game characters or
+other entities. Updating states when necessary. Conditioning the
+operators of other logics on entities' discrete states.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdff0674" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-5-3">
+<ul>
+<li>(Alter/Check) the discrete state of an entity according to a given
+(fixed) transition system.</li>
+<li>Whenever an entity's discrete state changes, perform some operators of
+this or another logic.</li>
+<li>Synchronize state changes between several entities.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org86d6674" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-5-4">
+<ul>
+<li>Change an entity's sprite, animation, or visual effects according to
+state.</li>
+<li>Textual or icon labels/descriptors to indicate state.</li>
+<li>Audio/visual/text effects on state change.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd922ef0" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-5-5">
+<ul>
+<li>Entities</li>
+<li>Condition predicates for making transitions</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org95bef90" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-5-6">
+<ul>
+<li>Entity states</li>
+<li>State transitions and related events</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1502c29" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-5-7">
+<p>
+  Note that an entity may be attached to several concurrent transition
+systems, and these must be composed somehow. In this document, I use
+"discrete state" to refer to an entity's overall, combined state, e.g.,
+"jumping while ducking" or "poisoned, hasted, and confused".
+<a href="http://chsm.sourceforge.net">Concurrent Hierarchical State Machines</a>
+provide one possible semantics.
+</p>
+
+<p>
+Also note that resource logics may also involve discrete state
+(e.g., number of health units), but this seems somewhat ambiguous with
+entity-states (e.g., current set of power-ups; in a Metroid example,
+whether the Varia suit upgrade has been obtained). The key guidelines
+for whether such a piece of state is a resource or an entity-state are:
+</p>
+
+<ol class="org-ol">
+<li>If the statistic "feels" more categorical than numeric (even if an
+ordering could be given), entity-state is likely more appropriate.</li>
+<li>If the statistic is numeric and is ever "spent", or if it acts as a
+cap on a numeric resource which is spent, or if it otherwise engages
+with a resource economy in a similar way, it is likely a resource and
+not an entity-state.</li>
+</ol>
+
+<p>
+In particular, RPG character statistics are usually best thought of as
+resources, whereas status effects are more like entity-states.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-game-mode-logics" class="outline-2">
+<h2 id="game-mode-logics">Game Mode Logics</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgb8d028c" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+  The game switches between different screens in which different controls,
+information, and actions are available.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbc3bdcb" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+  Set up, activate, suspend, and clean up different game modes
+(potentially in parallel) like title screens, save/load screens,
+navigation versus menu or battle modes, etc.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1fe9dad" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-6-3">
+<ul>
+<li>Activate a new game mode, optionally deactivating the old mode</li>
+<li>Determine the currently active game modes</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8dafad8" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-6-4">
+<ul>
+<li>Change the visual layout of the screen, the background, or some text
+to illustrate the active mode</li>
+<li>Play a transition visual or sound effect to highlight a change in mode</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge69c08f" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-6-5">
+<ul>
+<li>A set of game modes and conditions under which they might change</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org756f7c2" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-6-6">
+<ul>
+<li>Which game modes are currently active</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org457872b" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-6-7">
+<p>
+  This will often work in concert with persistence logic so that while
+the player is in the in-game menu or pause screen nothing changes in the world.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-linking-logics" class="outline-2">
+<h2 id="linking-logics">Linking Logics</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org5ab374f" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+  Some things, in some context, are related or connected to each other.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6c87a6e" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+  Maintain, enumerate, and follow/activate directed connections between
+concepts.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1684fa8" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-7-3">
+<ul>
+<li>Determine/alter which links are available potentially according to
+operators of other logics</li>
+<li>Perform some action when a link is activated or traversed</li>
+<li>Enumerate or perform some action on all the objects linked to another
+object</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd05dd9e" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-7-4">
+<ul>
+<li>Show a laid-out graph of links between concepts.</li>
+<li>Highlight links which are available to traverse/activate or hide those
+which are unavailable</li>
+<li>Scroll smoothly when moving between connected spaces, if connections
+have a "side"</li>
+<li>Play a screen transition when moving between connected spaces</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org897a2f2" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-7-5">
+<ul>
+<li>Things to be linked together</li>
+<li>Types of links and attributes of those links</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1c3f3b5" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-7-6">
+<ul>
+<li>Networks of linked objects</li>
+<li>Current "positions" in those networks</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga96f0fb" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-7-7">
+<p>
+  This can be used for spatial links between rooms, for dialog trees
+(navigating an abstract space), for character progression systems like
+Final Fantasy X's Sphere Grid, and for a wide variety of other uses.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-persistence-logics" class="outline-2">
+<h2 id="persistence-logics">Persistence Logics</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org9bbea01" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-8-1">
+<p>
+  Some things in the world stay the same, for example across sessions,
+between rooms, or when scrolled offscreen; while others change or reset.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdf1bafc" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-8-2">
+<p>
+  Determining which entities, assets, and variables are in a particular
+scope (e.g., saved-game scope, current-level scope, visible-area scope)
+and persisting or resetting those as the scope changes.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf42f4e8" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-8-3">
+<ul>
+<li>Determine or alter which persistence scopes are active.</li>
+<li>Set, clear, or restore the facts associated with a particular scope.</li>
+<li>Trigger an action of another logic when scopes change, are saved, or
+are restored.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd1d2070" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-8-4">
+<ul>
+<li>Give audiovisual feedback when scopes change or when variables have
+been reset.</li>
+<li>When the player is about to leave a scope, give textual descriptions
+of what data will be preserved and what will be lost.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3759624" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-8-5">
+<ul>
+<li>Abstract objects and facts governed by scoping rules.</li>
+<li>A set of possible scopes.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd669b7c" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-8-6">
+<ul>
+<li>Active and inactive scopes</li>
+<li>Save and reset events</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfae91a6" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-8-7">
+<p>
+  This is generally how a game addresses concepts like
+"bullets disappear when they go off-screen" or "remember opened
+treasure chests and defeated bosses but not regular enemy
+health/positions".
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-physics-logics" class="outline-2">
+<h2 id="physics-logics">Physics Logics</h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-org0fdf790" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-9-1">
+<p>
+ Physical laws govern the movement of some in-game entities.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org90a2ae0" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-9-2">
+<p>
+ Update and honor objects' physical properties like position, velocity,
+density, etc., according to physical laws integrated over time.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5b71f65" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-9-3">
+<ul>
+<li>Alter the physical properties of objects (mass, moment of inertia,
+coefficients of friction, etc).</li>
+<li>Apply impulses, continuous forces, heat, etc., to objects.</li>
+<li>Integrate physics forward (or rewind it backwards) for one or more
+objects.</li>
+<li>Determine an object's physical quantities based on terms from some
+other logic (e.g., character-state, resource).</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc832773" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-9-4">
+<ul>
+<li>Map physical quantities like energy or mass onto visual qualities of
+the objects</li>
+<li>Show changes in physical quantities with visual or sound effects</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc485587" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-9-5">
+<ul>
+<li>Game entities, including their positions, shapes, and extents</li>
+<li>Physical properties of entities and the world</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2b84ab8" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-9-6">
+<ul>
+<li>Physical quantities and behaviors</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbd11110" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-9-7">
+<p>
+ This is nearly always in simulated continuous time and space.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-progression-logics" class="outline-2">
+<h2 id="progression-logics">Progression Logics</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-orgf420648" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+ The content of a game and its behavior can change as the player makes
+progress through various sequences of goals.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org806528c" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-10-2">
+<p>
+ Track and check measures of progress (potentially on multiple fronts).
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge0deddc" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-10-3">
+<ul>
+<li>Update or reset progression on some front, or track some flag.</li>
+<li>Check whether the player has progressed past some threshold, or
+whether something should be available.</li>
+<li>Parameterize operations of other logics based on progression.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1a99c74" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-10-4">
+<ul>
+<li>Pop up an achievement or other notification (e.g., a title card) when
+game progress takes place</li>
+<li>Show story events in a logbook or as a network of events</li>
+<li>Write text so that non-player characters refer to earlier stages of
+progression</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org542c3e6" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-10-5">
+<ul>
+<li>Types of progress</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0a5adb9" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-10-6">
+<ul>
+<li>Current status on progress measures</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6e19468" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-10-7">
+<p>
+ This can be used for things like quests and chains of quests, for
+in-engine cutscenes and scripted events, and to gate some content based
+on other content.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-recombinatory-logics" class="outline-2">
+<h2 id="recombinatory-logics">Recombinatory Logics</h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-org5c1e393" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-11-1">
+<p>
+ Some things are built out of smaller (recognizable) things.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc03d361" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-11-2">
+<p>
+ From a fixed set of (possibly parameterized) atoms, build a structured
+object (a room, a dungeon, a description, a magic item) according to
+some rules and constraints (possibly conditioned on operators of other
+logics) with some optional post-processing.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8e45aa4" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-11-3">
+<ul>
+<li>Generate an object or behavior out of some set of atoms with some
+parameters</li>
+<li>Enumerate valid outputs for some given constraints</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org49f685d" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-11-4">
+<ul>
+<li>For text which is filled in a "mad libs" style, underline or otherwise
+highlight the dynamic part of the text</li>
+<li>Show a seed value identifying the generated object</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgdc660d0" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-11-5">
+<ul>
+<li>Atoms to be recombined</li>
+<li>Conditions governing valid combinations</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgee1c72f" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-11-6">
+<ul>
+<li>Object/behavior generators</li>
+<li>Parameters and measures associated with generated objects</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgda70b1f" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-11-7">
+<p>
+ These can be used for procedural content generation or for monster
+formations or even for monster combat scripting, text generation, etc.
+</p>
+
+<p>
+Diablo rooms come from a fixed set and are connected arbitrarily through
+doorways; Rogue rooms come from a fixed set and are connected by gluing
+passages between them; Markov-chain text uses fixed characters and
+chooses the next according to the current character and some
+probabilities encoded in a Bayes network; Eliza produces a new string by
+picking a template based on whether key words were found in the input
+string by a pattern matching logic, with the templates parameterized by
+rooted or transformed versions of the input to the pattern matching logic.
+</p>
+
+<p>
+These can roughly be characterized in terms of how complex the choice
+structure is, how many or how fine-grained the intermediate structures
+produced by the operators are, and how much post-processing is done to
+ensure consistency or otherwise "fix up" the generated stuff. I suspect
+that constraint-solver-based methods would live in here too.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-resource-logics" class="outline-2">
+<h2 id="resource-logics">Resource Logics</h2>
+<div class="outline-text-2" id="text-12">
+</div>
+<div id="outline-container-org83559c9" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-12-1">
+<p>
+ Generic or specific resources can be created, destroyed, converted, or
+transferred between abstract or concrete locations.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgde12647" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-12-2">
+<p>
+ Creating, destroying, and exchanging (usually) discrete quantities of
+generic or specific resources in or between abstract or concrete
+locations on demand or over time; triggering other actions when these
+transactions take place.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0ab6e78" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-12-3">
+<ul>
+<li>Check if a transaction involving some units of certain resources is
+possible for some given locations.</li>
+<li>Perform a resource transaction.</li>
+<li>Perform an action of another logic when a transaction occurs.</li>
+<li>Perform an action of another logic when the quantity of resources
+within a location crosses a threshold.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf0c9f3a" class="outline-3">
+<h3>Communicative strategies</h3>
+<div class="outline-text-3" id="text-12-4">
+<ul>
+<li>Resource types are icons or text, quantities are numeric labels,
+locations are distinct regions of the screen (Or, in textual logics,
+separate lines or sections of the text)</li>
+<li>Resource types and quantities have intertwined representation,
+e.g., ten units of resource R appear as ten identical grouped icons or
+text labels communicating R; again, distinct regions of the screen
+express location (Or, in textual logics, separate lines or sections of
+the text)
+<ul>
+<li>This refers to e.g., Zelda "hearts" if the "capacity" of the
+location is also shown; this could also apply to health bars or
+other indicators where the length or color of a bar is a proxy
+for resource quantity</li>
+</ul></li>
+<li>As in the previous case, but different quantities of the same resource
+map onto different iconic representations</li>
+<li>Transactions may be described as lists of prerequisite resources
+and quantities (as above) and lists of result resources and
+quantities (again as above, but not necessarily in the same
+way). The interface elements affording the execution of that
+transaction may be dimmed if the transaction is not allowed, or the
+individual prerequisite resources if they are not present, or the
+result resource indicators may be dimmed. (Where dimming may be
+broadly construed as affording non-interaction)</li>
+<li>An attempt to perform a disallowed transaction may be met with
+graphical, textual, or aural feedback</li>
+<li>When a transaction occurs, text labels indicating the resource and
+quantity (via color, size, text content, etc) may appear for a time on
+screen (perhaps near the locations the transaction took place) or more
+permanently in a log, possibly along with aural feedback or animations</li>
+<li>Locations with spatial semantics may be communicated as appropriate
+for those semantics, with resources assigned individually or in groups
+to "physical" objects in those spaces. Common examples include
+"inventories" in adventure and especially role playing games. In any
+event the communication is somewhat deferred to the other logics which
+provide the spatial model; often this spatial view is not used in
+(for example) crafting systems of the same game, where aggregate counts
+are used instead</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org50c38d4" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-12-5">
+<ul>
+<li>Resource types</li>
+<li>Locations for resources</li>
+<li>A way to enumerate and count resources in those locations, e.g., to map
+a Diablo inventory onto a crafting system</li>
+<li>Ways to remove resources from and add resources to locations</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5d7aa93" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-12-6">
+<ul>
+<li>Resource transactions (available, allowed, and disallowed)</li>
+<li>Resource quantities and thresholds</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orged622df" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-12-7">
+<p>
+ In many cases there will be only one location, or resources of a given
+type will only be created, etc. The generic/specific language used here
+distinguishes e.g., "Minerals" from having more than one "Copper Sword."
+The two types of locations are ones which cannot be physically located
+in the game (abstract) and those which can (concrete).
+</p>
+
+<p>
+Cellular automata are a special case, especially since they are often
+communicated by mapping cells/locations onto physical space in a metric
+way, and quantities onto a dimension of space/color/etc
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-selection-logics" class="outline-2">
+<h2 id="selection-logics">Selection Logics</h2>
+<div class="outline-text-2" id="text-13">
+</div>
+<div id="outline-container-org865a7e0" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-13-1">
+<p>
+ The player can mark a subset of items out of a larger set
+as "selected", and there might be several currently active selections
+with different semantics.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd4393cd" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-13-2">
+<p>
+ Remember sets of selected objects out of larger sets, and pass around or
+enumerate those sets for other logics.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfd6af4f" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-13-3">
+<ul>
+<li>Add or remove an object from a selection</li>
+<li>List the objects in a selection, or which could be selected</li>
+<li>Perform some action when objects are selected or deselected</li>
+<li>Constrain the maximum or minimum size of a selection</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5e624f4" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-13-4">
+<ul>
+<li>Highlight the selected item graphically, by putting an icon next to
+it, or by altering or annotating its text label</li>
+<li>When a selection changes, play a visual or sound effect or have the
+selected/deselected item play an animation</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc2c8d8c" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-13-5">
+<ul>
+<li>Things that can be selected and types of selections</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf957fc9" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-13-6">
+<ul>
+<li>Selected object identifiers and measures on selection sets</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5951568" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-13-7">
+<p>
+ These are often used for menus or for RTS control
+(interacting with control logic), but also show up in crafting
+systems and many other places. Sometimes there are several selection
+categories which can be active at once, e.g., "the item slot the
+player selected for 'from' and the item slot the player is about to
+select for 'to'".
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-spatial-matching-logics" class="outline-2">
+<h2 id="spatial-matching-logics">Spatial Matching Logics</h2>
+<div class="outline-text-2" id="text-14">
+</div>
+<div id="outline-container-org8a9756e" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-14-1">
+<p>
+ Arranging objects in certain ways can cause things to happen.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4c25f32" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-14-2">
+<p>
+ Analyze the positions of objects and trigger events when they enter or
+leave particular layout patterns.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4ac5fac" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-14-3">
+<ul>
+<li>Determine whether a set of objects is arranged in a particular pattern</li>
+<li>Perform some action when a pattern is matched</li>
+<li>"Click" or automatically align objects into a particular arrangement</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge3c80a0" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-14-4">
+<ul>
+<li>Highlight objects which partially or fully satisfy a pattern with
+visual effects</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7a68e47" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-14-5">
+<ul>
+<li>Things to be analyzed for pattern matching</li>
+<li>A space in which those things are laid out</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org88e8df4" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-14-6">
+<ul>
+<li>Matched patterns</li>
+<li>Slots in which objects can be arranged</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7baba3f" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-14-7">
+<p>
+ In a point-and-click or parser adventure game, situations
+like "use HAMMER on ROCK" or "put FISH in OCEAN" could be seen as
+cases of spatial matching. This also covers puzzle games like Tetris
+or Bejeweled as well as certain puzzles in RPG dungeons and
+potentially the minigames seen in e.g., golf games.
+</p>
+
+<p>
+Some crafting systems also use spatial pattern matching logics.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-temporal-matching-logics" class="outline-2">
+<h2 id="temporal-matching-logics">Temporal Matching Logics</h2>
+<div class="outline-text-2" id="text-15">
+</div>
+<div id="outline-container-org028fd8b" class="outline-3">
+<h3>Communicative role</h3>
+<div class="outline-text-3" id="text-15-1">
+<p>
+ Some sequences of events can have different effects when they occur with
+particular timing or in a particular order.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf934496" class="outline-3">
+<h3>Abstract process</h3>
+<div class="outline-text-3" id="text-15-2">
+<p>
+ Observe sequences of events to recognize when a pattern is matched and
+trigger an action when this occurs.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org98dac7a" class="outline-3">
+<h3>Abstract operations</h3>
+<div class="outline-text-3" id="text-15-3">
+<ul>
+<li>Trigger an event when a temporal pattern is matched</li>
+<li>Determine which, if any, temporal patterns are currently under
+consideration/partially matched</li>
+<li>Determine how well a new event matches any pattern currently under
+consideration</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9f2fdc4" class="outline-3">
+<h3>Presentation</h3>
+<div class="outline-text-3" id="text-15-4">
+<ul>
+<li>Give the player feedback on how well their input lines up with the
+temporal pattern</li>
+<li>Provide visual or audio feedback when a temporal pattern is satisfied</li>
+<li>Show the sequence of actions under consideration to the player in a
+textual or pictorial representation</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgae8445f" class="outline-3">
+<h3>Required concepts</h3>
+<div class="outline-text-3" id="text-15-5">
+<ul>
+<li>Types of events to be matched</li>
+<li>Streams of events</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgedd9ab9" class="outline-3">
+<h3>Provided concepts</h3>
+<div class="outline-text-3" id="text-15-6">
+<ul>
+<li>Matched patterns</li>
+<li>Timing quality</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga29d707" class="outline-3">
+<h3>Notes</h3>
+<div class="outline-text-3" id="text-15-7">
+<p>
+ Music/rhythm games are often based on temporal pattern-matching logics,
+as are time-sensitive mini-games and special moves in fighting games.
+</p>
+</div>
+</div>
