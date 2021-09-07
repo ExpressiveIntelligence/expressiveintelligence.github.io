@@ -11,6 +11,17 @@
   "acceptrate": "50% (for oral + poster presentation)"
 },
 {
+  "title": "Crosston Tavern: Modulating Autonomous Characters Behaviour through Player-NPC Conversation",
+  "url": "",
+  "authors": ["Elisabeth Oliver", "Michael Mateas"],
+  "year": "2021",
+  "venue": "AIIDE",
+  "venue_long": "Artificial Intelligence and Interactive Digital Entertainment",
+  "venue_note": "poster paper",
+  "pubtype": "full",
+  "acceptrate": "50% (for oral + poster presentation)"
+},
+{
   "title": "A Demonstration of Blabrecs, an AI-Based Wordgame",
   "url": "https://mkremins.github.io/publications/Blabrecs_AIIDE2021.pdf",
   "authors": ["Max Kreminski", "Isaac Karth"],
