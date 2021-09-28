@@ -1,5 +1,41 @@
 [
 {
+  "title": "Centrifuge: A Visual Tool for Authoring Sifting Patterns for Character-Based Simulationist Story Worlds",
+  "url": "",
+  "authors": ["Shi Johnson-Bey", "Michael Mateas"],
+  "year": "2021",
+  "venue": "PLIE",
+  "venue_long": "AIIDE Workshop on Programming Languages and Interactive Entertainment",
+  "pubtype": "workshop"
+},
+{
+  "title": "Opportunities for Approachable Game Development via Program Synthesis",
+  "url": "",
+  "authors": ["Max Kreminski", "Michael Mateas"],
+  "year": "2021",
+  "venue": "PLIE",
+  "venue_long": "AIIDE Workshop on Programming Languages and Interactive Entertainment",
+  "pubtype": "workshop"
+},
+{
+  "title": "Argument Box",
+  "url": "",
+  "authors": ["Rehaf Aljammaz", "Yasheng She", "Michael Mateas"],
+  "year": "2021",
+  "venue": "EXAG",
+  "venue_long": "AIIDE Workshop on Experimental AI for Games",
+  "pubtype": "workshop"
+},
+{
+  "title": "AgentCraft: An Agent-Based Minecraft Settlement Generator",
+  "url": "",
+  "authors": ["Ari Iramanesh", "Max Kreminski"],
+  "year": "2021",
+  "venue": "EXAG",
+  "venue_long": "AIIDE Workshop on Experimental AI for Games",
+  "pubtype": "workshop"
+},
+{
   "title": "Winnow: A Domain-Specific Language for Incremental Story Sifting",
   "url": "https://mkremins.github.io/publications/Winnow_AIIDE2021.pdf",
   "authors": ["Max Kreminski", "Melanie Dickinson", "Michael Mateas"],
