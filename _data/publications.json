@@ -68,6 +68,15 @@
   "pubtype": "pe_or_demo"
 },
 {
+  "title": "The Game I Mean: Game Reference, Citation and Authoritative Access",
+  "url": "http://gamestudies.org/2103/articles/kaltman_mason_wardripfruin",
+  "authors": ["Eric Kaltman", "Stacey Mason", "Noah Wardrip-Fruin"],
+  "year": "2021",
+  "venue": "Game Studies",
+  "venue_long": "Game Studies",
+  "pubtype": "journal"
+},
+{
   "title": "Reflective Creators",
   "url": "https://mkremins.github.io/publications/ReflectiveCreators_ICCC2021.pdf",
   "authors": ["Max Kreminski", "Michael Mateas"],
@@ -76,6 +85,15 @@
   "venue_long": "International Conference on Computational Creativity",
   "venue_note": "poster paper",
   "pubtype": "full"
+},
+{
+  "title": "From the Presupposition of Doom to the Manifestation of Code: Using Emulated Citation in the Study of Games and Cultural Software",
+  "url": "http://digitalhumanities.org:8081/dhq/vol/15/1/000501/000501.html",
+  "authors": ["Eric Kaltman", "Joseph Osborn", "Noah Wardrip-Fruin"],
+  "year": "2021",
+  "venue": "DHQ",
+  "venue_long": "Digital Humanities Quarterly",
+  "pubtype": "journal"
 },
 {
   "title": "A Genre-Specific Game Description Language for Game Boy RPGs",
@@ -142,6 +160,15 @@
   "venue": "CHI LBW",
   "venue_long": "CHI Late-Breaking Work on Human Factors in Computing Systems",
   "pubtype": "full"
+},
+{
+  "title": "You Can't Make Games About Much",
+  "url": "",
+  "authors": ["Noah Wardrip-Fruin"],
+  "year": "2021",
+  "venue": "<em>Your Computer Is on Fire</em>",
+  "venue_long": "Your Computer Is on Fire",
+  "pubtype": "chapter"
 },
 {
   "title": "How Pac-Man Eats",
