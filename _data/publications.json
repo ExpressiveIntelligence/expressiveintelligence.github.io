@@ -1,5 +1,32 @@
 [
 {
+  "title": "A Coauthorship-Centric History of Interactive Emergent Narrative",
+  "url": "https://mkremins.github.io/publications/IENHistory_ICIDS2021.pdf",
+  "authors": ["Max Kreminski", "Michael Mateas"],
+  "year": "2021",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling",
+  "pubtype": "full"
+},
+{
+  "title": "Toward Narrative Instruments",
+  "url": "https://mkremins.github.io/publications/NarrativeInstruments_ICIDS2021.pdf",
+  "authors": ["Max Kreminski", "Michael Mateas"],
+  "year": "2021",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling",
+  "pubtype": "full"
+},
+{
+  "title": "Emergent Narrative and Reparative Play",
+  "url": "https://mkremins.github.io/publications/ReparativePlay_ICIDS2021.pdf",
+  "authors": ["Jason Grinblat", "Cat Manning", "Max Kreminski"],
+  "year": "2021",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling",
+  "pubtype": "full"
+},
+{
   "title": "Centrifuge: A Visual Tool for Authoring Sifting Patterns for Character-Based Simulationist Story Worlds",
   "url": "",
   "authors": ["Shi Johnson-Bey", "Michael Mateas"],
