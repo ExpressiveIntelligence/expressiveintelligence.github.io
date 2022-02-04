@@ -1,5 +1,25 @@
 [
 {
+  "title": "Evaluating Mixed-Initiative Creative Interfaces via Expressive Range Coverage Analysis",
+  "url": "",
+  "authors": ["Max Kreminski", "Isaac Karth", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2022",
+  "venue": "HAI-GEN",
+  "venue_long": "IUI Workshop on Human-AI Co-Creation with Generative Models",
+  "pubtype": "workshop"
+},
+{
+  "title": "Academical: A Choice-Based Interactive Storytelling Game for Enhancing Moral Reasoning, Knowledge, and Attitudes in Responsible Conduct of Research",
+  "url": "https://mkremins.github.io/publications/RCR_GaNTaP.pdf",
+  "authors": ["Katelyn M. Grasse", "Edward F. Melcer", "Max Kreminski", "Nick Junius", "James Ryan", "Noah Wardrip-Fruin"],
+  "year": "2022",
+  "venue": "<em>Games and Narrative: Theory and Practice</em>",
+  "venue_long": "Games and Narrative: Theory and Practice",
+  "booktitle": "Games and Narrative: Theory and Practice",
+  "publisher": "Springer",
+  "pubtype": "chapter"
+},
+{
   "title": "A Coauthorship-Centric History of Interactive Emergent Narrative",
   "url": "https://mkremins.github.io/publications/IENHistory_ICIDS2021.pdf",
   "authors": ["Max Kreminski", "Michael Mateas"],
@@ -166,18 +186,6 @@
   "venue": "FDG",
   "venue_long": "Foundations of Digital Games",
   "pubtype": "pe_or_demo"
-},
-{
-  "title": "Academical: A Choice-Based Interactive Storytelling Game for Enhancing Moral Reasoning, Knowledge, and Attitudes in Responsible Conduct of Research",
-  "url": "https://mkremins.github.io/publications/RCR_GaNTaP.pdf",
-  "authors": ["Katelyn M. Grasse", "Edward F. Melcer", "Max Kreminski", "Nick Junius", "James Ryan", "Noah Wardrip-Fruin"],
-  "year": "2021",
-  "venue": "<em>Games and Narrative: Theory and Practice</em>",
-  "venue_long": "Games and Narrative: Theory and Practice",
-  "booktitle": "Games and Narrative: Theory and Practice",
-  "publisher": "Springer",
-  "pubtype": "chapter",
-  "inpress": true
 },
 {
   "title": "Social Superpowers in Social VR: Beyond Approximation of Face-to-face",
