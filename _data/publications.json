@@ -12,6 +12,15 @@
   "pubtype": "chapter"
 },
 {
+  "title": "Requirements Analysis and Speculative Design of Support Tools for TTRPG Game Masters",
+  "url": "/papers/Acharya_DiGRA2022.pdf",
+  "authors": ["Devi Acharya", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2022",
+  "venue": "DiGRA",
+  "venue_long": "Digital Games Research Association",
+  "pubtype": "full"
+},
+{
   "title": "On the Maintenance of Meaning: A Deleuzian View on Proceduralism",
   "url": "/papers/Zhou_DiGRA2022.pdf",
   "authors": ["Hongwei Zhou", "Kyle Gonzalez", "Nathan Altice", "Noah Wardrip-Fruin", "Angus G. Forbes"],
