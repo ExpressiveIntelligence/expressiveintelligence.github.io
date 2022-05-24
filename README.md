@@ -63,7 +63,7 @@ Jekyll uses the [Liquid template language](https://shopify.github.io/liquid/) to
 
 It's a matter of personal preference! I think URLs look cleaner without unnecessary filetype suffixes, and this is a way to achieve the cleaner URLs I crave.
 
-## I'm getting an error when running `jekyll serve` locally
+### I'm getting an error when running `jekyll serve` locally
 
 If your error includes this message:
 
