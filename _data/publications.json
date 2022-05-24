@@ -1,5 +1,14 @@
 [
 {
+  "title": "Spinning Coherent Interactive Fiction through Foundation Model Prompts",
+  "url": "",
+  "authors": ["Alex Calderwood", "Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2022",
+  "venue": "<em>ICCC</em>",
+  "venue_long": "International Conference on Computational Creativity",
+  "pubtype": "full"
+},
+{
   "title": "Authoring for Story Sifters",
   "url": "",
   "authors": ["Max Kreminski", "Noah Wardrip-Fruin", "Michael Mateas"],
