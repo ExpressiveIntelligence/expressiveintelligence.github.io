@@ -1,7 +1,16 @@
 [
 {
+  "title": "Exploring the Design Space of Social Physics Engines in Games",
+  "url": "https://shijbey.github.io/publications/SocialPhysicsEngines.pdf",
+  "authors": ["Shi Johnson-Bey", "Mark J. Nelson", "Michael Mateas"],
+  "year": "2022",
+  "venue": "ICIDS",
+  "venue_long": "International Conference on Interactive Digital Storytelling",
+  "pubtype": "full"
+},
+{
   "title": "Spinning Coherent Interactive Fiction through Foundation Model Prompts",
-  "url": "",
+  "url": "https://computationalcreativity.net/iccc22/papers/ICCC-2022_paper_65.pdf",
   "authors": ["Alex Calderwood", "Noah Wardrip-Fruin", "Michael Mateas"],
   "year": "2022",
   "venue": "ICCC",
@@ -10,7 +19,7 @@
 },
 {
   "title": "Authoring for Story Sifters",
-  "url": "",
+  "url": "https://mkremins.github.io/publications/AuthoringSifters_TAP.pdf",
   "authors": ["Max Kreminski", "Noah Wardrip-Fruin", "Michael Mateas"],
   "year": "2022",
   "venue": "<em>The Authoring Problem</em>",
@@ -58,7 +67,7 @@
 },
 {
   "title": "Reevaluating the Role of Relatedness in Single-Player Roleplaying Games",
-  "url": "",
+  "url": "https://mkremins.github.io/publications/RCR_SDT-HCI2022.pdf",
   "authors": ["Katelyn M. Grasse", "Max Kreminski", "Noah Wardrip-Fruin", "Michael Mateas", "Edward F. Melcer"],
   "year": "2022",
   "venue": "SDT-HCI",
