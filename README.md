@@ -36,6 +36,15 @@ Stop the server with ctrl-c.
 6. Share your changes using `git push` (directly to the master branch) 
 - Don’t make branches for now (we’ll use branches for making future iterations of the site)
 
+## Updating the live site
+
+Unitl recently, a cron job pulled updates from gihub to the live site (we should get this set up). For now, you need to follow these instructions instead.
+
+1. Push your site edits locally using the above instructions.
+2. Log on to the [UCSC VPN](https://its.ucsc.edu/vpn/campus-vpn.html). 
+3. Run `ssh eis@eis.ucsc.edu` . You will need someone to share the password. Enter the password when prompted.
+4. Pull the changes from GitHub: `cd /www/eis.ucsc.edu` followed by `sh pull.sh`
+
 ## Some Interesting Files
 
 * `_config.yml`: The Jekyll configuration file. Ours is pretty straightforward at the moment, since we're not trying to do anything especially fancy, but you could modify this to do things like add new article types other than the default `page`.
@@ -44,12 +53,6 @@ Stop the server with ctrl-c.
 * `_site/`: This directory contains the built version of the site. You shouldn't create, edit, or delete files in here directly; Jekyll will manage the contents of this directory for you. Run `jekyll build` (or `jekyll serve`) to regenerate the built version of the site.
 
 ## FAQ
-
-### How do the contents of this repository get mirrored to the BSOE server?
-
-A cron job on the BSOE server regularly pulls down the contents of the `_site/` directory from this repository and makes them available at https://eis.ucsc.edu. As a result, only changes that are made to the `_site/` directory will be reflected on the official version of the site. This is why it's important to run `jekyll build` (and commit any resulting changes to the `_site/` directory) before you push an updated version of the site to this repo.
-
-Including the `_site/` directory in the repository is unusual for a GitHub Pages site, but makes it possible for us to automatically mirror the site to the BSOE server without installing Jekyll there as well. We should probably find a better way to go about handling the deploy process in the future.
 
 ### Why do all the page files start with three dashes, a `title: Some page title` line, and three more dashes?
 
@@ -62,3 +65,9 @@ Jekyll uses the [Liquid template language](https://shopify.github.io/liquid/) to
 ### Why are all the pages stored as `{{actual-page-name}}/index.html` instead of `{{actual-page-name}}.html`?
 
 It's a matter of personal preference! I think URLs look cleaner without unnecessary filetype suffixes, and this is a way to achieve the cleaner URLs I crave.
+
+### (Deprecated) How do the contents of this repository get mirrored to the BSOE server?
+
+A cron job on the BSOE server regularly pulls down the contents of the `_site/` directory from this repository and makes them available at https://eis.ucsc.edu. As a result, only changes that are made to the `_site/` directory will be reflected on the official version of the site. This is why it's important to run `jekyll build` (and commit any resulting changes to the `_site/` directory) before you push an updated version of the site to this repo.
+
+Including the `_site/` directory in the repository is unusual for a GitHub Pages site, but makes it possible for us to automatically mirror the site to the BSOE server without installing Jekyll there as well. We should probably find a better way to go about handling the deploy process in the future.
