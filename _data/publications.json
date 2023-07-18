@@ -1,5 +1,23 @@
 [
 {
+  "title": "Shoelace: A Storytelling Assistant for GUMSHOE One-2-One",
+  "url": "https://dl.acm.org/doi/10.1145/3582437.3582475",
+  "authors": ["Devi Acharya", "Jack Kelly", "William Tate", "Maxwell Joslyn", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2023",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games",
+  "pubtype": "full"
+},
+{
+  "title": "Towards Computational Support with Language Models for TTRPG Game Masters",
+  "url": "https://dl.acm.org/doi/10.1145/3582437.3587202",
+  "authors": ["Jack Kelly", "Michael Mateas", "Noah Wardrip-Fruin"],
+  "year": "2023",
+  "venue": "HAI-PLAY",
+  "venue_long": "Foundations of Digital Games Workshop on Human-AI Interaction Through Play",
+  "pubtype": "workshop"
+},
+{
   "title": "Exploring the Design Space of Social Physics Engines in Games",
   "url": "https://shijbey.github.io/publications/SocialPhysicsEngines.pdf",
   "authors": ["Shi Johnson-Bey", "Mark J. Nelson", "Michael Mateas"],

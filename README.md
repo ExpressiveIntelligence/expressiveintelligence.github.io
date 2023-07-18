@@ -2,7 +2,6 @@
 
 Website for the [Expressive Intelligence Studio](https://eis.ucsc.edu) (EIS), a technical and cultural research group at UC Santa Cruz.
 
-
 ## Getting Started
 
 If you have Windows, you first need to install Ruby+Devkit from [RubyInstaller](https://rubyinstaller.org/downloads/), then you can continue with the steps below. See the docs [here](https://jekyllrb.com/docs/installation/windows/) if you have trouble.
