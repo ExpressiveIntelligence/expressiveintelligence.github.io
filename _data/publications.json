@@ -1,5 +1,14 @@
 [
 {
+  "title": "Towards an Understanding of Character Believability",
+  "url": "https://dl.acm.org/doi/abs/10.1145/3582437.3582466",
+  "authors": ["Rehaf Aljammaz","Noah Wardrip-Fruin", "Michael Mateas"],
+  "year": "2023",
+  "venue": "FDG",
+  "venue_long": "Foundations of Digital Games",
+  "pubtype": "full"
+},
+{
   "title": "Shoelace: A Storytelling Assistant for GUMSHOE One-2-One",
   "url": "https://dl.acm.org/doi/10.1145/3582437.3582475",
   "authors": ["Devi Acharya", "Jack Kelly", "William Tate", "Maxwell Joslyn", "Michael Mateas", "Noah Wardrip-Fruin"],
