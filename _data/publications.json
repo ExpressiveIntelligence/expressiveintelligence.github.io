@@ -1,13 +1,40 @@
 [
+  {
+    "title": "Toward Using ChatGPT to Generate Theme-Relevant Simulated Storyworlds",
+    "url": "https://www.exag.org/papers/Toward%20Using%20ChatGPT%20to%20Generate%20Theme-Relevant%20Simulated%20Storyworlds.pdf",
+    "authors": ["Shi Johnson-Bey", "Michael Mateas", "Noah Wardrip-Fruin"],
+    "year": "2023",
+    "venue": "EXAG",
+    "venue_long": "AIIDE Workshop on Experimental AI for Games",
+    "pubtype": "workshop"
+  },
 {
-  "title": "Towards an Understanding of Character Believability",
-  "url": "https://dl.acm.org/doi/abs/10.1145/3582437.3582466",
-  "authors": ["Rehaf Aljammaz","Noah Wardrip-Fruin", "Michael Mateas"],
-  "year": "2023",
-  "venue": "FDG",
-  "venue_long": "Foundations of Digital Games",
-  "pubtype": "full"
-},
+    "title": "There and back again: extracting formal domains for controllable neurosymbolic story authoring",
+    "url": "https://ojs.aaai.org/index.php/AIIDE/article/download/27502/27275",
+    "authors": ["Jack Kelly", "Alex Calderwood", "Noah Wardrip-Fruin", "Michael Mateas"],
+    "year": "2023",
+    "venue": "AIIDE",
+    "venue_long": "Artificial Intelligence and Interactive Digital Entertainment",
+    "pubtype": "full"
+  },
+  {
+    "title": "Modeling morality-based argumentation for believable game characters: a design postmortem",
+    "url": "https://ojs.aaai.org/index.php/AIIDE/article/download/27514/27287",
+    "authors": ["Rehaf Aljammaz","Noah Wardrip-Fruin", "Michael Mateas"],
+    "year": "2023",
+    "venue": "AIIDE",
+    "venue_long": "Artificial Intelligence and Interactive Digital Entertainment",
+    "pubtype": "full"
+  },
+  {
+    "title": "Towards an Understanding of Character Believability",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3582437.3582466",
+    "authors": ["Rehaf Aljammaz","Noah Wardrip-Fruin", "Michael Mateas"],
+    "year": "2023",
+    "venue": "FDG",
+    "venue_long": "Foundations of Digital Games",
+    "pubtype": "full"
+  },
 {
   "title": "Shoelace: A Storytelling Assistant for GUMSHOE One-2-One",
   "url": "https://dl.acm.org/doi/10.1145/3582437.3582475",
