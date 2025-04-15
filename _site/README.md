@@ -44,7 +44,7 @@ Unitl recently, a cron job pulled updates from gihub to the live site (we should
 3. Run `ssh eis@eis.ucsc.edu` . You will need someone to share the password. Enter the password when prompted.
 4. Pull the changes from GitHub: `cd /www/eis.ucsc.edu` followed by `sh pull.sh`
 
-## Some Interesting Filescl
+## Some Interesting Files
 
 * `_config.yml`: The Jekyll configuration file. Ours is pretty straightforward at the moment, since we're not trying to do anything especially fancy, but you could modify this to do things like add new article types other than the default `page`.
 * `_data/publications.json`: An incomplete list of all our publications, stored as an array of JSON objects. This is used to build the table of publications on the site's `/publications` page, and could also be used as a data source for other pages. (For instance, we could pull out all the publications with a given tag and render them on the page for a particular project.)
